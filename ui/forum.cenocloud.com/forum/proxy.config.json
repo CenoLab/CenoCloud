@@ -1,0 +1,7 @@
+{
+  "/api": {
+    "target": "http://139.199.184.19:8080/forum/api",
+    "secure": false,
+    "pathRewrite": {"^/api" : ""}
+  }
+}

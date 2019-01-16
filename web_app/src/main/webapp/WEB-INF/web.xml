@@ -1,0 +1,33 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1"
+         metadata-complete="true">
+  <!--change servlet version to 3.1 -->
+  <servlet>
+    <servlet-name>app-dispatcher</servlet-name>
+    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    <init-param>
+      <param-name>contextConfigLocation</param-name>
+      <param-value>classpath:web_app/spring/spring-*.xml,classpath:web_app/dubbo/*.xml</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>app-dispatcher</servlet-name>
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Consumer</servlet-name>
+    <servlet-class>com.iot.nero.web_app.Main</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <filter>
+    <filter-name>cors</filter-name>
+    <filter-class>com.iot.nero.filter.CORSFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>cors</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+</web-app>

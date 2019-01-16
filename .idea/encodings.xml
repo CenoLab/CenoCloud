@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/api_gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/facade_admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/facade_agent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/facade_alarm" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/facade_app" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/facade_balance" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/facade_cms" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/facade_data" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/facade_ecs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/facade_forum" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/facade_log" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/facade_monitor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/facade_resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/facade_sso" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/facade_wo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/middleware/ndfs/client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/middleware/ndfs/common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/middleware/ndfs/data" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/middleware/ndfs/index" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/middleware/ndfs/monitor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/middleware/nraft" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/middleware/nraft/raft" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parent_admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parent_agent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parent_alarm" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parent_app" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parent_balance" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parent_cms" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parent_control" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parent_data" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parent_ecs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parent_forum" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parent_log" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parent_monitor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parent_resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parent_sso" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parent_system" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parent_wo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service_agent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service_alarm" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service_app" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service_cms" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service_control" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service_data" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service_ecs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service_forum" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service_monitor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service_sso" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service_system" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service_wo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web_app" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web_control" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web_data" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web_ecs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web_sso" charset="UTF-8" />
+  </component>
+</project>

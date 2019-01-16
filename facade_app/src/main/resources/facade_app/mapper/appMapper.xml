@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.iot.nero.facade_app.dao.AppDao">
+
+    <select id="findAppByUid" resultType="com.iot.nero.parent_app.dto.ApplicationResult">
+      select A.id as Id,
+      A.d_id as DId,
+      A.a_name as Name,
+      A.a_type as Type,
+      A.a_tech as Tech,
+      A.a_trans as Trans,
+      A.a_company as  Company,
+      A.a_max_connect as MaxConnect,
+      A.a_product_key as ProductKey,
+      A.a_createtime as CreateTime,
+      A.a_desc as Description
+      from apps A  where A.d_id = '${uid}';
+    </select>
+
+    <select id="findAppById" resultType="com.iot.nero.parent_app.entity.Application">
+        select A.id as Id,
+        A.d_id as DId,
+        A.a_name as Name,
+        A.a_type as Type,
+        A.a_tech as Tech,
+        A.a_trans as Trans,
+        A.a_company as  Company,
+        A.a_product_key as ProductKey,
+        A.a_product_secret as ProductSecret,
+        A.a_max_connect as MaxConnect,
+        A.a_createtime as CreateTime,
+        A.a_desc as Description
+        from apps A  where A.id = '${id}';
+    </select>
+
+    <select id="findAppByName" resultType="com.iot.nero.parent_app.entity.Application">
+        select A.id as Id,
+        A.d_id as DId,
+        A.a_name as Name,
+        A.a_type as Type,
+        A.a_tech as Tech,
+        A.a_trans as Trans,
+        A.a_company as  Company,
+        A.a_product_key as ProductKey,
+        A.a_product_secret as ProductSecret,
+        A.a_max_connect as MaxConnect,
+        A.a_createtime as CreateTime,
+        A.a_desc as Description
+        from apps A  where A.a_name = '${name}';
+    </select>
+
+    <!--Application findAppByNameAndDeveloperID(@Param("name") String name,@Param("did") Integer dId);-->
+    <select id="findAppByNameAndDeveloperID" resultType="com.iot.nero.parent_app.entity.Application">
+        select A.id as Id,
+        A.d_id as DId,
+        A.a_name as Name,
+        A.a_type as Type,
+        A.a_tech as Tech,
+        A.a_trans as Trans,
+        A.a_company as  Company,
+        A.a_product_key as ProductKey,
+        A.a_product_secret as ProductSecret,
+        A.a_max_connect as MaxConnect,
+        A.a_createtime as CreateTime,
+        A.a_desc as Description
+        from apps A  where A.a_name = '${name}'and A.d_id = ${did};
+    </select>
+    <select id="findAppByProductKey" resultType="com.iot.nero.parent_app.entity.Application">
+        select A.id as Id,
+        A.d_id as DId,
+        A.a_name as Name,
+        A.a_type as Type,
+        A.a_tech as Tech,
+        A.a_trans as Trans,
+        A.a_company as  Company,
+        A.a_product_key as ProductKey,
+        A.a_product_secret as ProductSecret,
+        A.a_max_connect as MaxConnect,
+        A.a_createtime as CreateTime,
+        A.a_desc as Description
+        from apps A where A.a_product_key = '${key}' limit 1;
+    </select>
+
+
+    <insert id="createApplication">
+        insert into apps (d_id,a_name,a_type,a_tech,a_trans,a_company,a_product_key,a_product_secret,a_max_connect,a_desc)
+        VALUES (${did},'${name}','${type}','${tech}','${trans}','${company}','${productKey}','${productSecret}','${maxConnect}','${desc}');
+    </insert>
+
+
+    <!--KeySecret findKeySecretByKey(@Param("key") String key);-->
+    <select id="findKeySecretByKey" resultType="com.iot.nero.dto.KeySecret">
+      SELECT
+      A.a_product_key as SecretKey,
+      A.a_product_secret as Secret
+      from apps A
+      where
+      A.a_product_key = '${key}';
+    </select>
+</mapper>

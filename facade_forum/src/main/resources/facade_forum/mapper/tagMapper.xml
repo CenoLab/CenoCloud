@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.iot.nero.facade_forum.dao.TagDao">
+    <insert id="addTag">
+        insert into tag (authod_id,name)
+        values
+        (${authodId},'${name}');
+    </insert>
+
+    <select id="listTags" resultType="com.iot.nero.parent_facade.entity.Tag">
+        SELECT
+        id              AS id,
+        authro_id       AS authorId,
+        name            AS name,
+        article_count   AS articleCount,
+        question_count  AS questionCount,
+        del             AS del,
+        modify_time     AS modifyTime,
+        create_time     AS createTime
+        from tag
+        WHERE
+        name LIKE '%${tag}%'
+        AND del = 0
+    </select>
+    <select id="findTagById" resultType="com.iot.nero.parent_facade.entity.Tag">
+        SELECT
+        id              AS id,
+        authro_id       AS authorId,
+        name            AS name,
+        article_count   AS articleCount,
+        question_count  AS questionCount,
+        del             AS del,
+        modify_time     AS modifyTime,
+        create_time     AS createTime
+        from tag
+        WHERE id = ${id}
+        AND del= 0
+    </select>
+</mapper>

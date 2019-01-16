@@ -1,0 +1,4249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/TjuIntegrateServicePlatform/BaseProvider/src/main/java/cn/edu/tju/service/Impl/AdminServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/TjuIntegrateServicePlatform/BaseProvider/src/main/java/cn/edu/tju/service/Impl/UserServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/TjuIntegrateServicePlatform/BaseProvider/src/main/resources/spring-mybatis.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/TjuIntegrateServicePlatform/BaseProvider/src/test/java/cn/edu/tju/dao/UserDaoTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/TjuIntegrateServicePlatform/BaseProvider/src/test/java/cn/edu/tju/service/Impl/UserServiceImplTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/adc-da-thumbnailator/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/adc-da-thumbnailator/src/main/java/com/adc/da/thumbnailator/ThumbnailsUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/adc-da-thumbnailator/thumbnailator/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/adc-da-thumbnailator/thumbtest/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/dubboDemo/commonapi/commonapi.iml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/dubboDemo/commonapi/src/main/java/com/jd/dubbo/HelloDubbo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/dubboDemo/customer/src/main/java/com/jd/dubbo/Customer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/dubboDemo/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/dubboDemo/provider/src/main/java/com/jd/dubbo/HelloDubboImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/dubboDemo/provider/src/main/java/com/jd/dubbo/TestProvider.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/代码/SE/SE.iml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/代码/SE/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/代码/SE/src/IR/Page.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/代码/SE/src/IR/SearchFor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/代码/SE/src/main/IR/BuildIndex.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/代码/SE/src/main/IR/News.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/代码/SE/src/main/IR/Page.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/代码/SE/src/main/IR/SearchFor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/代码/SE/src/main/java/IR/BuildIndex.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/代码/SE/src/main/java/IR/News.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/代码/SE/src/main/java/IR/Page.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/代码/SE/src/main/java/IR/SearchFor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/代码/SE/src/main/webapp/WEB-INF/web.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/代码/SE/src/main/webapp/css/main.css">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/代码/SE/src/main/webapp/result.jsp">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/代码/SE/src/main/webapp/文章形式示例/7-99.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/代码/SE/webapp/WEB-INF/web.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$APPLICATION_CONFIG_DIR$/consoles/db/10f78002-5bf3-44dc-a4fa-c8407d044097/console.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console.groovy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/go/src/cenobox/question.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ADC-DA-2.0/adc-da-main/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ADC-DA-2.0/adc-da-main/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ADC-DA-2.0/adc-da-main/src/test/java/com/adc/da/preview/utils/excel/ExcelUtilsTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ADC-DA-2.0/adc-da-main/src/test/java/officedoc/excel/ExcelUtilsTest.groovy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ADC-DA-2.0/adc-da-main/src/test/java/officedoc/excel/ExcelUtilsTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ADC-DA-2.0/adc-da-preview/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ADC-DA-2.0/adc-da-preview/src/main/java/com/adc/da/order/controller/PreviewController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ADC-DA-2.0/adc-da-preview/src/main/java/com/adc/da/order/service/PreviewService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ADC-DA-2.0/adc-da-preview/src/main/java/com/adc/da/preview/controller/PreviewController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ADC-DA-2.0/adc-da-preview/src/main/java/com/adc/da/preview/utils/doc/DocUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ADC-DA-2.0/adc-da-preview/src/main/java/com/adc/da/preview/utils/excel/AdcCell.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ADC-DA-2.0/adc-da-preview/src/main/java/com/adc/da/preview/utils/excel/ExcelUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ADC-DA-2.0/adc-da-preview/src/main/java/com/adc/da/preview/utils/excel/POIUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ADC-DA-2.0/adc-da-preview/src/main/java/com/adc/da/preview/utils/excel/RowStyle.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ADC-DA-2.0/adc-da-preview/src/main/java/com/adc/da/preview/utils/excel/SheetPage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ADC-DA-2.0/adc-da-preview/src/main/java/com/adc/da/preview/utils/pdf/PdfWhiteMarker.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ADC-DA-2.0/adc-da-preview/src/main/java/officedoc/doc/DocUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ADC-DA-2.0/adc-da-preview/src/main/java/officedoc/excel/ExcelUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ADC-DA-2.0/adc-da-preview/src/main/java/officedoc/excel/POIUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ADC-DA-2.0/adc-da-preview/src/main/java/officedoc/pdf/PdfWhiteMarker.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ADC-DA-2.0/adc-da-ui/src/main/webapp/html/pdf/generic/web/viewer.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ADC-DA-2.0/adc-da-ui/src/main/webapp/html/system/user.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ADC-DA-2.0/adc-da-ui/src/main/webapp/js/html/config.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ADC-DA-2.0/nginx.conf">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ADC-DA-2.0/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ADC-DA-2.0/xlsxPrew/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ADC-DA-2.0/xlsxPrew/src/main/webapp/WEB-INF/web.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../SmartCanServer/pushPlugin/src/main/java/com/iot/nero/smartcan/plugin/utils/SqlSessionFactoryUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../adc-da-thumbnailator/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../anomalydetecetion/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../anomalydetecetion/src/main/java/com/neroyang/anomalydetection/exception/ResponseReturnFalseException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../anomalydetecetion/src/main/java/com/neroyang/anomalydetection/prometheus/client/PrometheusHttpClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../anomalydetecetion/src/main/java/com/neroyang/anomalydetection/service/IApiService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../anomalydetecetion/src/main/java/com/neroyang/anomalydetection/service/impl/ApiService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../anomalydetecetion/src/main/java/com/pingcap/anomalydetection/CONSTANT/CONSTANT.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../anomalydetecetion/src/main/java/com/pingcap/anomalydetection/core/AnomalyDetection.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../anomalydetecetion/src/main/java/com/pingcap/anomalydetection/core/ConditionDo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../anomalydetecetion/src/main/java/com/pingcap/anomalydetection/core/MathCompute.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../anomalydetecetion/src/main/java/com/pingcap/anomalydetection/core/StatisticsAnomalyDetection.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../anomalydetecetion/src/main/java/com/pingcap/anomalydetection/core/StreamAnomalyDetevtion.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../anomalydetecetion/src/main/java/com/pingcap/anomalydetection/core/detection/MatrixFactorizationAnomalyDetection.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../anomalydetecetion/src/main/java/com/pingcap/anomalydetection/core/detection/ReplicatorNeuralNetworksAnomalyDetection.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../anomalydetecetion/src/main/java/com/pingcap/anomalydetection/core/detection/StatisticsAnomalyDetection.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../anomalydetecetion/src/main/java/com/pingcap/anomalydetection/core/detection/StreamAnomalyDetevtion.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../anomalydetecetion/src/main/java/com/pingcap/anomalydetection/core/forecast/LinearRegression.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../anomalydetecetion/src/main/java/com/pingcap/anomalydetection/core/math/MathCompute.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../anomalydetecetion/src/main/java/com/pingcap/anomalydetection/entity/DataPoint.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../anomalydetecetion/src/main/java/com/pingcap/anomalydetection/service/IApiService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../anomalydetecetion/src/main/java/com/pingcap/anomalydetection/service/impl/ApiService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../anomalydetecetion/src/main/java/com/pingcap/anomalydetection/web/core/ApiHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../anomalydetecetion/src/main/java/com/pingcap/anomalydetection/web/filter/CORSFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../anomalydetecetion/src/main/java/com/pingcap/anomalydetection/web/servlet/ApiServlet.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../anomalydetecetion/src/main/resources/config/config.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../anomalydetecetion/src/main/webapp/WEB-INF/web.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../apache-cloudstack-4.11.0.0-src/server/src/com/cloud/api/ApiServer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/.gitignore">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/README.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/build/asn/protocol.asn">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/build/bin/scServer.sh">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/build/config/config.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/build/doc/PluginDevelopGuide.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/config/config.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/pushPlugin/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/pushPlugin/src/main/java/com/iot/nero/smartcan/plugin/App.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/pushPlugin/src/main/java/com/iot/nero/smartcan/plugin/impl/MessageReceivedListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/pushPlugin/src/main/java/com/iot/nero/smartcan/plugin/impl/SmartFaultListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/META-INF/services/com.iot.nero.smartcan.spi.OnMessageReceivedListener">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/META-INF/services/com.iot.nero.smartcan.spi.OnSmartFaultListener">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/SmartCanBootstrap.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/config/Config.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/constant/CONSTANT.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/constant/CompressionAlgorithm.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/core/Protocol.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/entity/platoon/ABSOPERATING.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/entity/platoon/AutoHorn.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/entity/platoon/BRAKELIGHTLEFTACTIVE.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/entity/platoon/BRAKELIGHTRIGHTACTIVE.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/entity/platoon/BreakPadelSwtichSts.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/entity/platoon/CollectConfigMessage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/entity/platoon/EPSSTA.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/entity/platoon/ESPAEBactive.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/entity/platoon/ESPOPERATING.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/entity/platoon/EXTERIORLAMPSWITCH.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/entity/platoon/ExteriorLights.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/entity/platoon/FOGLAMPSWITCH.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/entity/platoon/FRONTWIPERSWITCH.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/entity/platoon/HANDBRAKE.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/entity/platoon/HIGHBEAMINDICATOR.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/entity/platoon/HornStatus.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/entity/platoon/ISFLEET.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/entity/platoon/Light.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/entity/platoon/MODEL.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/entity/platoon/Other.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/entity/platoon/Platoon.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/entity/platoon/ROLE.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/entity/platoon/SmartCanRequestBody.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/entity/platoon/SmartStrategyRequestMessage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/entity/platoon/Token.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/entity/platoon/TransmissionState.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/entity/platoon/VehicleList.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/entity/platoon/XTypeEnum.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/exceptions/InvalidHostNameException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/server/ServerHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/server/WorkerServeHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/service/impl/ProtocolService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/spi/OnMessageDecodeListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/spi/classloader/SPIClassLoader.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/spi/impl/MessageDecodeListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/spi/impl/MessageReceivedListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/spi/impl/SmartFaultListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/utils/JarUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/serverCore/src/main/java/com/iot/nero/smartcan/utils/dbtools/DataBase.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/META-INF/MANIFEST.MF">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/META-INF/service/com.iot.nero.smartcan.spi.MessagePush">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/META-INF/services/com.iot.nero.smartcan.spi.MessagePush">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/META-INF/services/com.iot.nero.smartcan.spi.OnMessageReceivedListener">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/META-INF/services/com.iot.nero.smartcan.spi.OnSmartFaultListener">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/App.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/SmartCanBootstrap.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/config/Config.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/config/ConfigLoader.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/constant/CONSTANT.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/entity/TokenPair.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/entity/car/ABSOPERATING.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/entity/car/ANGLE.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/entity/car/AutoHorn.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/entity/car/BRAKELIGHTLEFTACTIVE.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/entity/car/BrakePedalStatus.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/entity/car/Other.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/entity/car/RunningList.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/entity/car/SmartCanRequestBody.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/entity/car/SmartCarRequestBody.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/entity/car/Wiper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/entity/platoon/ABSOPERATING.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/entity/platoon/ANGLE.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/entity/platoon/BreakPadelSwtichSts.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/entity/platoon/CollectConfigMessage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/entity/platoon/EPSSTA.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/entity/platoon/ESPOPERATING.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/entity/platoon/EXTERIORLAMPSWITCH.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/entity/platoon/ExteriorLights.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/entity/platoon/MODEL.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/entity/platoon/ROLE.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/entity/platoon/SmartCanRequestBody.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/entity/platoon/SmartCanResponseMessage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/entity/platoon/SmartPlatonningRequestMessage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/entity/platoon/SteeringWheelAngle.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/factory/ConfigFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/factory/ServiceFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/server/ServerHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/server/WorkerServeHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/service/impl/ProtocolService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/spi/MessagePush.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/spi/OnMessageReceivedListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/spi/OnSmartFaultListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/spi/impl/EmailPusher.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/spi/impl/MessageReceivedListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/spi/impl/SmartFaultListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/spi/impl/SmsPusher.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/spi/plugin/MessageReceivedListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/spi/plugin/SmartFaultListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/utils/ByteUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/src/main/java/com/iot/nero/smartcan/utils/JarUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/target/classes/META-INF/services/com.iot.nero.smartcan.spi.OnMessageReceivedListener">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/target/classes/META-INF/services/com.iot.nero.smartcan.spi.OnSmartFaultListener">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/testPlugin/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/testPlugin/src/main/java/com/iot/nero/smartcan/MessageReceivedListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/testPlugin/src/main/java/com/iot/nero/smartcan/SmartFaultListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/testPlugin/src/main/java/com/iot/nero/smartcan/plugin/App.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/testPlugin/src/main/java/com/iot/nero/smartcan/plugin/SmartFaultListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/testPlugin/src/main/java/com/iot/nero/smartcan/plugin/impl/MessageReceivedListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/testPlugin/src/main/java/com/iot/nero/smartcan/plugin/impl/SmartFaultListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/testPlugin/src/main/java/com/iot/nero/smartcan/spi/OnMessageReceivedListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/testPlugin/src/main/java/com/iot/nero/smartcan/spi/OnSmartFaultListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/testPlugin/src/main/java/com/iot/nero/smartcan/spi/impl/MessageReceivedListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/testPlugin/src/main/java/com/iot/nero/smartcan/spi/impl/SmartFaultListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/testPlugin/src/main/java/com/iot/nero/smartcan/spi/plugin/MessageReceivedListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/testPlugin/src/main/java/com/iot/nero/smartcan/spi/plugin/SmartFaultListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../autocarnew/testPlugin/src/test/java/com/iot/nero/AppTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../carcloud/src/main/java/com/tju/nero/App.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../carcloud/src/main/java/com/tju/nero/carcloud/handler/ServerHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../carcloud/src/main/java/com/tju/nero/carcloud/protocol/Protocol.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../carcloud/src/main/java/com/tju/nero/carcloud/protocol/entity/LoginRequestMessage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../carcloud/src/main/java/com/tju/nero/carcloud/protocol/entity/MsgCount.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../carcloud/src/main/java/com/tju/nero/carcloud/protocol/entity/TimeStamp.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../e.tju/common/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../e.tju/common_facade/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../e.tju/common_service/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../e.tju/parent/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../e.tju/service_sso/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/.gitignore">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/README.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/bin/deploy.sh">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/bin/find_service.sh">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/bin/protect_service.sh">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/bin/restart_service.sh">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/bin/start_service.sh">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/bin/stop_service.sh">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/bin/stop_service_new.sh">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/dev_blog/dev_log.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/dev_blog/nginx-front.conf">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/dev_blog/nginx.conf">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/dev_blog/protool.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/dev_blog/thinking.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/dev_blog/third_api.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/dev_blog/控制策略训练数据集样例.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/dev_blog/控制策略训练数据集样例.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/sdk/nginx.conf">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/sql/hz.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/sql/schema.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/sql/schema_2018_4_11.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/sql/schema_2018_4_9.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/sql/schema_2018_5_16.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/sql/schema_2018_5_21.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/sql/schema_2018_5_24.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/sql/schema_2018_5_29.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/sql/schema_2018_6.2.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/main/java/com/iot/nero/constant/ClientType.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/main/java/com/iot/nero/filter/CORSFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/main/java/com/iot/nero/utils/math/AnomalyDetection.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/main/java/com/iot/nero/utils/math/CONSTANT/CONSTANT.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/main/java/com/iot/nero/utils/math/CONSTANT/DetectionMethod.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/main/java/com/iot/nero/utils/math/CONSTANT/StaticisticsAnomlyDetection.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/main/java/com/iot/nero/utils/math/Condition.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/main/java/com/iot/nero/utils/math/ConditionDo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/main/java/com/iot/nero/utils/math/DataConversionUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/main/java/com/iot/nero/utils/math/DataStatisticsUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/main/java/com/iot/nero/utils/math/MathCompute.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/main/java/com/iot/nero/utils/math/MatrixFactorizationAnomalyDetection.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/main/java/com/iot/nero/utils/math/ReplicatorNeuralNetworksAnomalyDetection.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/main/java/com/iot/nero/utils/math/SimpleMath.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/main/java/com/iot/nero/utils/math/StatisticsAnomalyDetection.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/main/java/com/iot/nero/utils/math/StreamAnomalyDetevtion.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/main/java/com/iot/nero/utils/math/exceptions/NoDetectionMethodException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/main/java/com/iot/nero/utils/math/exceptions/NoExpressException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/main/java/com/iot/nero/utils/math/exceptions/NoMathMethodException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/main/java/com/iot/nero/utils/mq/MqttService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/main/java/com/iot/nero/utils/redis/JedisUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/main/java/com/iot/nero/utils/time/DateUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/main/java/com/iot/nero/utils/verifycode/RedisimgVerify.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/main/java/com/iot/nero/utils/verifycode/SlideVerify.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/main/java/com/iot/nero/utils/verifycode/Verify.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/main/java/com/iot/nero/utils/verifycode/entity/ImgVerify.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/main/java/com/iot/nero/utils/verifycode/exception/VerifyFailedException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/main/resources/config.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/main/resources/jdbc.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/config/config.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/elk.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_alarm/src/main/java/com/iot/nero/facade_alarm/dao/ExpressDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_alarm/src/main/java/com/iot/nero/facade_alarm/facade/impl/AlarmFacade.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_alarm/src/main/resoucres/facade_alarm/dubbo/facade.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_alarm/src/main/resoucres/facade_alarm/mapper/conditionMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_alarm/src/main/resoucres/facade_alarm/mapper/expressMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_alarm/src/test/java/com/iot/nero/facade_alarm/dao/ConditionDaoTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_alarm/src/test/java/com/iot/nero/facade_alarm/facade/impl/AlarmFacadeTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_app/src/main/java/com/iot/nero/facade_app/dao/AppDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_app/src/main/java/com/iot/nero/facade_app/facade/impl/ApplicationFacade.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_app/src/main/resources/facade_app/mapper/appMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_app/src/test/java/com/iot/nero/facade_app/dao/AppDaoTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_app/src/test/java/com/iot/nero/facade_app/facade/impl/ApplicationFacadeTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_app/src/test/resources/facade_app/mapper/appMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_data/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_data/src/main/java/com/iot/nero/facade_data/App.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_data/src/main/java/com/iot/nero/facade_data/dao/DataDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_data/src/main/java/com/iot/nero/facade_data/facade/impl/DataFacade.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_data/src/main/resources/facade_data/mapper/dataMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_data/src/test/java/com/iot/nero/facade_data/facade/impl/DataFacadeTest.groovy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_data/src/test/java/com/iot/nero/facade_data/facade/impl/DataFacadeTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_data/src/test/resources/facade_data/mapper/dataMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_ecs/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/main/java/com/iot/nero/facade_forum/App.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/main/java/com/iot/nero/facade_forum/dao/ActivityDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/main/java/com/iot/nero/facade_forum/dao/AnswerDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/main/java/com/iot/nero/facade_forum/dao/ArticleDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/main/java/com/iot/nero/facade_forum/dao/AttentionDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/main/java/com/iot/nero/facade_forum/dao/AuthorDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/main/java/com/iot/nero/facade_forum/dao/CommentDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/main/java/com/iot/nero/facade_forum/dao/EntryDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/main/java/com/iot/nero/facade_forum/dao/FavoriteDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/main/java/com/iot/nero/facade_forum/dao/FollowDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/main/java/com/iot/nero/facade_forum/dao/QuestionDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/main/java/com/iot/nero/facade_forum/dao/TagDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/main/java/com/iot/nero/facade_forum/facade/impl/ArticleFacade.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/main/java/com/iot/nero/facade_forum/facade/impl/AuthorFacade.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/main/java/com/iot/nero/facade_forum/facade/impl/ForumFacade.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/main/java/com/iot/nero/facade_forum/facade/impl/QuestionFacade.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/main/resources/facade_data/dubbo/facade.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/main/resources/facade_data/spring/spring-dao.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/main/resources/facade_forum/dubbo/facade.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/main/resources/facade_forum/mapper/activityMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/main/resources/facade_forum/mapper/answerMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/main/resources/facade_forum/mapper/articleMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/main/resources/facade_forum/mapper/attentionMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/main/resources/facade_forum/mapper/authorMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/main/resources/facade_forum/mapper/commentMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/main/resources/facade_forum/mapper/dataMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/main/resources/facade_forum/mapper/entryMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/main/resources/facade_forum/mapper/favoriteMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/main/resources/facade_forum/mapper/followMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/main/resources/facade_forum/mapper/questionMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/main/resources/facade_forum/mapper/tagMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/main/resources/facade_forum/spring/spring-dao.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/main/resources/facade_forum/spring/spring-service.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/multi.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/question.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/question_m.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/single.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/test/java/com/iot/nero/facade_forum/dao/AnswerDaoTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/test/java/com/iot/nero/facade_forum/dao/ArticleDaoTest.groovy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/test/java/com/iot/nero/facade_forum/dao/ArticleDaoTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/test/java/com/iot/nero/facade_forum/dao/AuthorDaoTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/test/java/com/iot/nero/facade_forum/dao/FuckTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/test/java/com/iot/nero/facade_forum/dao/QuestionDaoTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_forum/src/test/java/com/iot/nero/facade_forum/dao/Questionn.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_resources/src/main/java/com/iot/nero/facade_resources/dao/FileDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_resources/src/main/java/com/iot/nero/facade_resources/dao/FileLimitDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_resources/src/main/java/com/iot/nero/facade_resources/dao/ResourceDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_resources/src/main/java/com/iot/nero/facade_resources/facade/impl/ResourcesFacade.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/facade_sso/src/main/java/com/iot/nero/facade_sso/App.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/bin/ndfsDataServer.sh">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/client/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/client/src/main/java/com/iot/nero/middleware/dfs/client/DataDemo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/client/src/main/java/com/iot/nero/middleware/dfs/client/Demo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/client/src/main/java/com/iot/nero/middleware/dfs/client/IndexDemo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/client/src/main/java/com/iot/nero/middleware/dfs/client/core/DFSClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/common/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/common/src/main/java/com/iot/nero/middleware/dfs/common/cluster/discovery/NodeDiscovery.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/common/src/main/java/com/iot/nero/middleware/dfs/common/cluster/node/entity/DataNode.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/common/src/main/java/com/iot/nero/middleware/dfs/common/cluster/zk/ZookeeperClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/common/src/main/java/com/iot/nero/middleware/dfs/common/config/ConfigLoader.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/common/src/main/java/com/iot/nero/middleware/dfs/common/constant/CONSTANT.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/common/src/main/java/com/iot/nero/middleware/dfs/common/utils/System.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/config/config.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/App.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/DFSBootstrap.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/annotation/Config.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/annotation/ConfigField.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/annotation/Reject.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/client/DFSClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/client/Demo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/client/core/DFSClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/client/core/DFSErrorListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/client/core/OnErrorListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/client/discovery/ServiceDiscovery.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/cluster/discovery/NodeDiscovery.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/cluster/node/DataNode.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/cluster/node/Node.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/cluster/node/NodeManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/cluster/node/entity/DataNode.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/cluster/node/entity/MonitorNode.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/cluster/node/entity/Node.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/cluster/zk/ZookeeperClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/config/Config.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/config/ConfigLoader.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/constant/CONSTANT.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/constant/CompressionAlgorithm.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/constant/NodeType.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/core/ChunkManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/core/IndexManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/entity/BlockData.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/entity/Chunk.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/entity/ChunkData.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/entity/ChunkDataProtocol.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/entity/FileData.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/entity/SectionPos.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/entity/auth/Authentication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/entity/dataprotocol/ChunkDataProtocol.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/entity/dataprotocol/ChunkProtocol.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/entity/dataprotocol/ChunkProtocolFooter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/entity/dataprotocol/ChunkProtocolHeader.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/entity/node/DataNode.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/entity/node/Node.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/entity/request/Request.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/entity/response/Response.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/exceptions/FileAlreadyExistsInThisChunkException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/exceptions/FileSizeExceededException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/exceptions/ThisChunkIndexIsAlreadyFull.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/factory/ConfigFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/factory/FieldFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/server/DFSServerAcceptor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/server/DSFServer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/server/ServerHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/server/WorkerServeHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/service/IFileService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/service/impl/FileService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/utils/ByteUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/utils/FileUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/utils/MD5Utils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/utils/System.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/utils/algorithm/BPlusNode.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/main/java/com/iot/nero/middleware/dfs/data/utils/algorithm/BPlusTree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/test/java/com/iot/nero/AppTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/test/java/com/iot/nero/middleware/dfs/data/core/ChunkManagerTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/test/java/com/iot/nero/middleware/dfs/data/core/IndexManagerTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/data/src/test/java/com/iot/nero/middleware/dfs/data/service/impl/FileServiceTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/docs/design.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/docs/use.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/dfs/index/DFSBootstrap.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/dfs/index/annotation/Service.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/dfs/index/server/DFSServerAcceptor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/dfs/index/server/DSFServer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/dfs/index/server/NioServer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/dfs/index/server/ServerHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/dfs/index/server/WorkerServeHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/dfs/index/service/impl/FileService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/App.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/DDSBootstrap.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/DFSBootstrap.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/DFSBootstrapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/annotation/Inject.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/annotation/Service.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/client/DFSClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/client/DFSClientAcceptor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/client/DFSErrorListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/client/Demo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/client/callback/InvokeCallback.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/client/constant/RPCTYPE.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/client/constant/RpcType.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/client/core/DFSClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/client/core/DFSErrorListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/client/discovery/ServiceDiscovery.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/client/handler/ClientHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/client/proxy/DFSProxy.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/cluster/discovery/NodeDiscovery.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/cluster/discovery/ServiceDiscovery.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/cluster/node/NodeManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/cluster/node/entity/DataNode.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/cluster/node/entity/IndexNode.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/cluster/node/entity/MonitorNode.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/cluster/node/entity/Node.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/cluster/zk/ZookeeperClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/config/Config.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/config/ConfigFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/config/ConfigLoader.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/constant/CONSTANT.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/constant/CompressionAlgorithm.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/constant/NdfsInfo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/constant/NodeType.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/core/ChunkManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/core/FileIndexManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/core/FileManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/core/IndexManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/core/algorithm/BPlusNode.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/core/algorithm/BPlusTree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/core/algorithm/BTree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/entity/BlockData.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/entity/Chunk.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/entity/Data.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/entity/DataPosition.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/entity/InvokeEntity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/entity/MonitorNode.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/entity/auth/Authentication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/entity/node/DataNode.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/entity/node/MonitorNode.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/entity/node/Node.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/entity/node/NodeRelationship.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/entity/request/InvokeEntity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/entity/request/Request.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/entity/response/Response.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/exceptions/InvalidHostNameException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/exceptions/InvalidPostException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/exceptions/SaveFileTransactionPrepareFailedException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/exceptions/SaveFileTransactionStartFailedException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/factory/ConfigFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/package-info.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/server/DFSServerAcceptor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/server/DSFServer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/server/Handler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/server/IDFSServer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/server/IHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/server/IServer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/server/NioServer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/server/ServerHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/server/WorkerServeHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/service/IFileService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/service/IIndexService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/service/IMonitorService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/service/impl/FileService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/service/impl/IndexService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/service/impl/MonitorService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/utils/ByteUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/utils/ClassUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/utils/FileUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/utils/ProtoStuffUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/utils/System.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/java/com/iot/nero/middleware/dfs/index/zk/ZookeeperClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/index/src/main/resources/log4j.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/monitor/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/ndfs/test_data/header.list">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/nraft/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/nraft/raft/config/config.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/nraft/raft/nraft.iml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/nraft/raft/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/nraft/raft/src/main/java/com/iot/nero/App.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/nraft/raft/src/main/java/com/iot/nero/nraft/App.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/nraft/raft/src/main/java/com/iot/nero/nraft/DFSBootstrap.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/nraft/raft/src/main/java/com/iot/nero/nraft/NRaftBootstrap.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/nraft/raft/src/main/java/com/iot/nero/nraft/client/RpcClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/nraft/raft/src/main/java/com/iot/nero/nraft/client/RpcClientConnectionPool.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/nraft/raft/src/main/java/com/iot/nero/nraft/client/RpcErrorListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/nraft/raft/src/main/java/com/iot/nero/nraft/config/Config.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/nraft/raft/src/main/java/com/iot/nero/nraft/config/ConfigLoader.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/nraft/raft/src/main/java/com/iot/nero/nraft/constant/CONSTANT.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/nraft/raft/src/main/java/com/iot/nero/nraft/constant/Role.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/nraft/raft/src/main/java/com/iot/nero/nraft/core/RaftTimeStateMachine.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/nraft/raft/src/main/java/com/iot/nero/nraft/core/TimeStateMachine.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/nraft/raft/src/main/java/com/iot/nero/nraft/entity/AppendEntriesArgs.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/nraft/raft/src/main/java/com/iot/nero/nraft/entity/AppendEntriesReply.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/nraft/raft/src/main/java/com/iot/nero/nraft/entity/HeartBeat.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/nraft/raft/src/main/java/com/iot/nero/nraft/entity/RequestVoteArgs.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/nraft/raft/src/main/java/com/iot/nero/nraft/entity/RequestVoteReply.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/nraft/raft/src/main/java/com/iot/nero/nraft/entity/VoteArgs.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/nraft/raft/src/main/java/com/iot/nero/nraft/entity/VoteReply.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/nraft/raft/src/main/java/com/iot/nero/nraft/entity/request/Request.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/nraft/raft/src/main/java/com/iot/nero/nraft/exception/InvalidPostException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/nraft/raft/src/main/java/com/iot/nero/nraft/factory/ConfigFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/nraft/raft/src/main/java/com/iot/nero/nraft/server/DFSServerAcceptor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/nraft/raft/src/main/java/com/iot/nero/nraft/server/DSFServer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/nraft/raft/src/main/java/com/iot/nero/nraft/server/RaftServer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/nraft/raft/src/main/java/com/iot/nero/nraft/server/RaftServerAcceptor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/nraft/raft/src/main/java/com/iot/nero/nraft/server/ServerHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/nraft/raft/src/main/java/com/iot/nero/nraft/server/WorkerServeHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/nraft/raft/src/main/java/com/iot/nero/nraft/service/IRaftService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/nraft/raft/src/main/java/com/iot/nero/nraft/service/impl/RaftService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/nraft/raft/src/main/java/com/iot/nero/nraft/utils/RandomUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/nraft/raft/src/main/java/com/iot/nero/nraft/utils/System.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/nraft/raft/src/test/java/com/iot/nero/AppTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/nraft/src/main/java/com/iot/nero/nraft/entity/AppendEntriesArgs.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/nraft/src/main/java/com/iot/nero/nraft/entity/AppendEntriesReply.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/nraft/src/main/java/com/iot/nero/nraft/entity/RequestVoteArgs.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/middleware/nraft/src/main/java/com/iot/nero/nraft/entity/RequestVoteReply.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent/src/main/java/com/iot/nero/constant/CONSTANT.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent/src/main/java/com/iot/nero/dto/AuthPair.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent/src/main/java/com/iot/nero/dto/KeySecret.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent/src/main/java/com/iot/nero/dto/Result.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent/src/main/java/com/iot/nero/service/BaseAuthService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent/src/main/java/com/iot/nero/service/impl/BaseAuthService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_alarm/src/main/java/com/iot/nero/facade/IAlarmFacade.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_alarm/src/main/java/com/iot/nero/parent_alarm/constant/CONSTANT.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_alarm/src/main/java/com/iot/nero/parent_alarm/dto/ConditionFinal.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_alarm/src/main/java/com/iot/nero/parent_alarm/exception/OperatorNotFoundException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_alarm/src/main/java/com/iot/nero/service/IAlarmService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_app/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_app/src/main/java/com/iot/nero/facade/IApplicationFacade.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_app/src/main/java/com/iot/nero/parent_app/constant/CONSTANT.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_app/src/main/java/com/iot/nero/parent_app/exception/AppAuthFailedException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_app/src/main/java/com/iot/nero/service/IClientService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_control/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_control/src/main/java/com/iot/nero/parent_control/dto/ControlData.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_control/src/main/java/com/iot/nero/parent_control/dto/ControlResult.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_control/src/main/java/com/iot/nero/service/IControlService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_control/src/test/java/com/iot/nero/AppTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_data/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_data/src/main/java/com/iot/nero/facade/IDataFacade.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_data/src/main/java/com/iot/nero/parent_data/constant/CONSTANT.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_data/src/main/java/com/iot/nero/parent_data/dto/DataResult.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_data/src/main/java/com/iot/nero/parent_data/dto/MsgData.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_data/src/main/java/com/iot/nero/service/IDataService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_ecs/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/facade/IArticleFacade.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/facade/IAuthorFacade.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/facade/IForumFacade.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/facade/IQuestionFacade.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/parent_facade/constant/CONSTANT.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/parent_facade/dto/AnswerDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/parent_facade/dto/AnswerInfo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/parent_facade/dto/ArticleBase.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/parent_facade/dto/ArticleDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/parent_facade/dto/ArticleInfo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/parent_facade/dto/ArticleInfoBase.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/parent_facade/dto/CommentDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/parent_facade/dto/CommentInfo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/parent_facade/dto/QuestionDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/parent_facade/dto/QuestionInfo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/parent_facade/dto/TagDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/parent_facade/entity/Activity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/parent_facade/entity/Answer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/parent_facade/entity/Article.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/parent_facade/entity/Attention.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/parent_facade/entity/Author.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/parent_facade/entity/Comment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/parent_facade/entity/Entry.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/parent_facade/entity/Favorite.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/parent_facade/entity/FollowPair.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/parent_facade/entity/Question.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/parent_facade/entity/Tag.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/parent_facade/exception/AlreadyFavoritedException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/parent_facade/exception/AlreadyFollowedException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/parent_facade/exception/AnswerAcceptFailedException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/parent_facade/exception/AnswerFailedException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/parent_facade/exception/AnswerStaredFailedException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/parent_facade/exception/ArticleFavoriteFailedException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/parent_facade/exception/ArticleNotFoundException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/parent_facade/exception/AuthorAlreadyFoundException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/parent_facade/exception/AuthorInitFailedException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/parent_facade/exception/AuthorNotFoundException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/parent_facade/exception/CommentFailedException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/parent_facade/exception/FollowFailedException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/parent_facade/exception/NotFavoritedException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/parent_facade/exception/QuestionAddFailedException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/parent_facade/exception/QuestionFavFailedException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/parent_facade/exception/QuestionNotFoundException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/parent_facade/exception/QuestionUnFavoriteFailedException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/parent_facade/exception/TagAddFailedException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/parent_facade/exception/UnFollowedException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/iot/nero/service/IForumService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/nero/iot/facade/IArticleFacade.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/nero/iot/facade/IAuthorFacade.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/nero/iot/facade/IQuestionFacade.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/nero/iot/parent_facade/constant/CONSTANT.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/nero/iot/parent_facade/dto/ArticleDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/nero/iot/parent_facade/entity/Answer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/nero/iot/parent_facade/entity/Article.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/nero/iot/parent_facade/entity/Author.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/nero/iot/parent_facade/entity/Question.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/nero/iot/parent_facade/entity/Tag.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/main/java/com/nero/iot/parent_facade/exception/ArticleAddFailedException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_forum/src/test/java/com/nero/iot/AppTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_log/src/main/java/com/iot/nero/parent_log/constant/CONSTANT.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_resources/src/main/java/com/iot/nero/facade/IResourcesFacade.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_resources/src/main/java/com/iot/nero/parent_resources/constant/CONSTANT.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_resources/src/main/java/com/iot/nero/parent_resources/entity/FIleLimit.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_resources/src/main/java/com/iot/nero/parent_resources/entity/FileLimit.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_resources/src/main/java/com/iot/nero/parent_resources/entity/Resource.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_sso/src/main/java/com/iot/nero/parent_sso/dto/AuthPair.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_sso/src/main/java/com/iot/nero/service/impl/BaseAuthService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_system/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_system/src/main/java/com/iot/nero/parent_system/dto/ApacheStatus.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_system/src/main/java/com/iot/nero/parent_system/dto/JVMStatus.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_system/src/main/java/com/iot/nero/parent_system/dto/MQStatus.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_system/src/main/java/com/iot/nero/parent_system/dto/NginxStatus.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_system/src/main/java/com/iot/nero/parent_system/dto/ServiceStatus.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_system/src/main/java/com/iot/nero/parent_system/dto/SystemStatus.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_system/src/main/java/com/iot/nero/parent_system/dto/TomcatStatus.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_system/src/main/java/com/iot/nero/parent_system/dto/system/Baseboard.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_system/src/main/java/com/iot/nero/parent_system/dto/system/ComputerSystem.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_system/src/main/java/com/iot/nero/parent_system/dto/system/Firmware.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_system/src/main/java/com/iot/nero/parent_system/dto/system/Memory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_system/src/main/java/com/iot/nero/parent_system/dto/system/Processor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_system/src/main/java/com/iot/nero/parent_system/dto/system/USBDevices.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_system/src/main/java/com/iot/nero/parent_system/dto/system/v.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parent_system/src/test/java/com/iot/nero/AppTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/service_alarm/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/service_alarm/src/main/java/com/iot/nero/service_alarm/App.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/service_alarm/src/main/java/com/iot/nero/service_alarm/Consumer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/service_alarm/src/main/java/com/iot/nero/service_alarm/service/impl/AlarmService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/service_alarm/src/main/resources/service_alarm/dubbo/service.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/service_alarm/src/test/java/com/iot/nero/service_alarm/service/impl/AlarmServiceTest.groovy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/service_app/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/service_app/src/main/java/com/iot/nero/service_app/service/impl/ApplicationService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/service_app/src/main/java/com/iot/nero/service_app/service/impl/ClientService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/service_app/src/main/resources/service_app/dubbo/service.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/service_app/src/test/java/com/iot/nero/service_app/service/impl/ApplicationServiceTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/service_app/src/test/java/com/iot/nero/service_app/service/impl/ClientServiceTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/service_app/src/test/resources/service_app/dubbo/service.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/service_control/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/service_control/src/main/java/com/iot/nero/App.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/service_control/src/main/java/com/iot/nero/Consumer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/service_control/src/main/java/com/iot/nero/service_control/service/impl/ControlService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/service_control/src/main/resources/service_control/dubbo/service.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/service_control/src/test/java/com/iot/nero/service_control/service/impl/ControlServiceTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/service_data/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/service_data/src/main/java/com/iot/nero/service_data/service/impl/DataService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/service_data/src/main/resources/service_data/dubbo/service.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/service_data/src/main/resources/service_sso/dubbo/service.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/service_data/src/test/java/com/iot/nero/service_data/service/impl/DataServiceTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/service_ecs/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/service_forum/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/service_forum/src/main/java/com/iot/nero/App.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/service_forum/src/main/java/com/iot/nero/Consumer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/service_forum/src/main/java/com/iot/nero/service_forum/service/impl/ForumService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/service_forum/src/main/resources/service_data/dubbo/service.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/service_forum/src/main/resources/service_forum/dubbo/service.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/service_sso/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/service_sso/src/main/java/com/iot/nero/service_sso/service/impl/AuthService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/service_system/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/service_system/src/main/java/com/iot/nero/service_system/App.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/service_system/src/main/java/com/iot/nero/service_system/service/impl/SystemService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/web_app/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/web_app/src/main/java/com/iot/nero/web_app/controller/ApiApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/web_app/src/main/resources/web_app/dubbo/app.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/web_control/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/web_control/src/main/java/com/iot/nero/web_control/Consumer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/web_control/src/main/java/com/iot/nero/web_control/controller/ApiControl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/web_control/src/main/resources/web_control/dubbo/data.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/web_control/src/main/resources/web_control/spring/spring-web.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/web_control/src/main/webapp/WEB-INF/web.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/web_data/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/web_data/src/main/java/com/iot/nero/web_data/controller/ApiData.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/web_data/src/main/resources/web_data/dubbo/data.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/web_data/src/main/webapp/WEB-INF/web.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/web_data/web_data.iml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/web_ecs/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/web_forum/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/web_forum/src/main/java/com/iot/nero/web_forum/Consumer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/web_forum/src/main/java/com/iot/nero/web_forum/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/web_forum/src/main/java/com/iot/nero/web_forum/controller/ApiForum.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/web_forum/src/main/java/com/iot/nero/web_forum/swagger/Swagger2Config.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/web_forum/src/main/java/com/iot/nero/web_forum/swagger/SwaggerConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/web_forum/src/main/java/com/iot/nero/web_forum/swagger/SwaggerConfiguration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/web_forum/src/main/resources/web_forum/dubbo/forum.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/web_forum/src/main/resources/web_forum/spring/spring-web.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/web_forum/src/main/webapp/WEB-INF/swagger/index.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/web_forum/src/main/webapp/WEB-INF/web.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/web_sso/src/main/java/com/iot/nero/web_sso/controller/ApiDeveloper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/web_sso/src/main/java/com/iot/nero/web_sso/controller/ApiLogin.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/web_sso/src/main/java/com/iot/nero/web_sso/controller/ApiRegister.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/web_sso/src/main/java/com/iot/nero/web_sso/entity/ImgVerify.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../libvirt-java/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../libvirt-java/src/test/java/org/libvirt/TestJavaBindings.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../officeDoc/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../officeDoc/src/main/java/com/adc/da/officedoc/doc/Doc2Pdf.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../officeDoc/src/main/java/com/adc/da/officedoc/doc/DocUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../officeDoc/src/main/java/com/adc/da/officedoc/excel/Excel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../officeDoc/src/main/java/com/adc/da/officedoc/excel/Excel2Pdf.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../officeDoc/src/main/java/com/adc/da/officedoc/excel/ExcelUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../officeDoc/src/main/java/com/adc/da/officedoc/excel/POIUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../officeDoc/src/main/java/com/adc/da/officedoc/exception/NotExcelFileException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../officeDoc/src/main/java/com/adc/da/officedoc/pdf/PdfWhiteMarker.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../officeDoc/src/multi.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../officeDoc/src/single.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../officeDoc/src/test/java/com/adc/da/officedoc/FuckTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../officeDoc/src/test/java/com/adc/da/officedoc/doc/DocUtilsTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../officeDoc/src/test/java/com/adc/da/officedoc/excel/Excel2PdfTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../officeDoc/src/test/java/com/adc/da/officedoc/excel/POIUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../officeDoc/src/test/java/com/adc/da/officedoc/excel/Xlsx2Csv.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../officeDoc/src/test/java/com/adc/da/officedoc/exception/NotExcelFileException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../officeDoc/src/test/java/com/adc/da/officedoc/pdf/BackgroundMode.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../officeDoc/src/test/java/com/adc/da/officedoc/pdf/PdfWhiteMarkerTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/adc-da-thumbnailator/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/adc-da-thumbnailator/src/main/java/com/adc/da/thumb/constant/ImageType.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/adc-da-thumbnailator/src/main/java/com/adc/da/thumbnailator/AdcDaThumbnailsUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/adc-da-thumbnailator/src/main/java/com/adc/da/thumbnailator/ThumbnailsUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/adc-da-thumbnailator/src/test/java/com/adc/da/thumbnailator/ThumbnailsUtilsTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/adc-da-thumbnailator/src/test/java/com/adc/da/utils/AdcDaThumbnailsUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/adc-da-thumbnailator/src/test/java/com/adc/da/utils/ThumbUtilsTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/App.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/ThumbnailParameter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/Thumbnailator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/Thumbnails.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/builders/BufferedImageBuilder.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/builders/ThumbnailParameterBuilder.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/builders/package-info.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/filters/Canvas.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/filters/Caption.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/filters/Colorize.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/filters/Flip.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/filters/Pipeline.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/filters/Rotation.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/filters/Transparency.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/filters/Watermark.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/geometry/AbsoluteSize.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/geometry/Coordinate.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/geometry/Positions.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/geometry/Region.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/geometry/RelativeSize.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/makers/FixedSizeThumbnailMaker.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/makers/ScaledThumbnailMaker.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/makers/ThumbnailMaker.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/name/Rename.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/resizers/AbstractResizer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/resizers/BicubicResizer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/resizers/BilinearResizer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/resizers/DefaultResizerFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/resizers/FixedResizerFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/resizers/NullResizer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/resizers/ProgressiveBilinearResizer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/resizers/ResizerFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/resizers/Resizers.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/resizers/configurations/AlphaInterpolation.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/resizers/configurations/Antialiasing.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/resizers/configurations/Dithering.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/resizers/configurations/Rendering.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/resizers/configurations/ResizerConfiguration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/resizers/configurations/ScalingMode.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/tasks/FileThumbnailTask.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/tasks/SourceSinkThumbnailTask.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/tasks/StreamThumbnailTask.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/tasks/ThumbnailTask.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/tasks/io/AbstractImageSink.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/tasks/io/AbstractImageSource.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/tasks/io/BufferedImageSink.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/tasks/io/BufferedImageSource.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/tasks/io/FileImageSink.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/tasks/io/FileImageSource.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/tasks/io/ImageSink.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/tasks/io/ImageSource.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/tasks/io/InputStreamImageSource.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/tasks/io/OutputStreamImageSink.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/tasks/io/URLImageSource.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/util/ThumbnailatorUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/util/exif/ExifFilterUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/util/exif/ExifUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/thumb/util/exif/IfdStructure.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/main/java/com/adc/da/utils/ThumbUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/src/test/java/com/adc/da/utils/ThumbUtilsTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../thumb/thumbtest/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xml2json/src/main/java/com/adc/da/utils/JsonParser.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xml2json/src/setting.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xml2json/src/test/java/com/adc/da/service/impl/Xml2JsonServiceImplTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.regexp">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

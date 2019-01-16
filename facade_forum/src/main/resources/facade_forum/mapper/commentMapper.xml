@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.iot.nero.facade_forum.dao.CommentDao">
+    <insert id="addComment">
+        INSERT  INTO comment
+        (author_id,for_type,for_id,content)
+        VALUES
+        (${authorId},${forType},${forId},'${content}');
+    </insert>
+
+
+    <select id="listCommentByArticleID" resultType="com.iot.nero.parent_facade.entity.Comment">
+        SELECT
+        id            AS id,
+        author_id     AS authorId,
+        for_type      AS forType,
+        for_id        AS forId,
+        content       AS content,
+        star_count    AS starCount,
+        del           AS del,
+        modify_time   AS modifyTime ,
+        create_time   AS createTime
+        FROM comment
+        WHERE
+        for_type = 1
+        AND
+        for_id = ${articleId}
+        AND del = 0
+        ORDER BY modify_time DESC
+        limit ${page},${num}
+    </select>
+    <select id="listComment" resultType="com.iot.nero.parent_facade.entity.Comment">
+         SELECT
+        id            AS id,
+        author_id     AS authorId,
+        for_type      AS forType,
+        for_id        AS forId,
+        content       AS content,
+        star_count    AS starCount,
+        del           AS del,
+        modify_time   AS modifyTime ,
+        create_time   AS createTime
+        FROM comment
+        WHERE
+        for_type = ${forType}
+        AND
+        for_id = ${aid}
+        AND del = 0
+        ORDER BY modify_time DESC
+        limit ${page},${num}
+    </select>
+</mapper>

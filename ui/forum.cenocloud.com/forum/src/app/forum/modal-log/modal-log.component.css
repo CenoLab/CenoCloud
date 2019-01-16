@@ -1,0 +1,19 @@
+.log{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 175px;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.log_content{
+    display: inline-block;
+}

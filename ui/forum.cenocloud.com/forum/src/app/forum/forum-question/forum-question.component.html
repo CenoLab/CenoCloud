@@ -1,0 +1,96 @@
+<div>
+	<!-- <div [style.display]="load ? 'none' : 'block'" class="col-sm-8 col-xs-12 height-load">
+      <i class="fa fa-spinner  fa-4x fa-pulse"></i>
+    </div> -->
+	<div class="animated fadeInLeft the_left">
+		<div class="new-title">
+			<div class="col-sm-2 col-xs-6 active" (click)="question()">
+				提问题
+			</div>
+			<div class="col-sm-2 col-xs-6" (click)="questionlist()">
+				问答
+			</div>
+			<div class="col-sm-2 col-xs-6 underline"></div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="isquestion">
+			<div class="question">
+				<div class="row p1 wow article_container new-title2" data-wow-delay="0.4s">
+					<label class="col-sm-12 col-xs-12" for="title-input">标题
+						<i style="color:#bbb;">用一句话说清楚你的问题</i>
+					</label>
+					<div class="col-md-12 col-xs-12">
+						<input id="title-input" placeholder="华丽的跌倒，胜过无谓的徘徊！" />
+					</div>
+					<div class="col-sm-12 col-xs-12 editor">
+						<quill-editor id="editor">
+						</quill-editor>
+					</div>
+				</div>
+
+				<div class="row article_container new-title2" data-wow-delay="0.4s">
+					<label class="col-sm-12 col-xs-2" for="tag-input">标签</label>
+					<div class="col-md-12 col-xs-12">
+						<input id="tag-input" placeholder="华丽的跌倒，胜过无谓的徘徊！" />
+					</div>
+				</div>
+				<div class="row article_container type" data-wow-delay="0.4s">
+					<div class="col-sm-12 col-xs-12">
+						<p>问题类型</p>
+						<input type="radio" name="article_type" value="1" id="article_type1" checked>
+						<label for="article_type1">一般技术问题</label>
+						<br>
+						<input type="radio" name="article_type" value="2" id="article_type2">
+						<label for="article_type2">鲲云技术问题</label>
+					</div>
+				</div>
+				<div class="row article_container new-title2" data-wow-delay="0.4s">
+					<label for="verify-input">验证</label>
+					<div class="col-md-8 col-sm-8 col-xs-9">
+						<input placeholder="输入验证码内容" id="verify-input" style="width: 150px;" />
+						<img style="height: 38px" src="https://api.sso.cenocloud.com/login/nasde/create" />
+					</div>
+				</div>
+				<div class="row article_container" data-wow-delay="0.4s">
+					<div class="col-sm-12 col-xs-12">
+						<p>免责申明:用户承诺，自主发表的文章不存在任何知识产权问题，否则用户应自行承担全部责任，鲲云社区有权为权利人维权进行必要的配合。</p>
+						<button (click)="publish_question()" class="col-sm-3 col-sm-offset-0 col-xs-6 col-xs-offset-3" style="background: #36f;color:#fff;font-weight: bold;height: 3em;line-height: 3em;border:none;">发布</button>
+					</div>
+				</div>
+			</div>
+			<div class="questionlist">
+				<div *ngFor="let ques of questionList" (click)="go_question_detail(ques.question.id)"  class="row article_container" data-wow-delay="0.4s">
+					<div class="col-md-3 col-sm-6 col-xs-6">
+						<div [ngStyle]="{'background-color':ques.question.accept == 1 ? 'green' : 'orange' }" style="display:inline-block;height:40px;width:42px;padding: 6px;">
+							<img *ngIf="ques.question.accept == 1"  style="height: 28px;" src="assets/img/accept.svg" />
+							<img *ngIf="ques.question.accept == 0"  style="height: 28px;" src="assets/img/waiting.svg" />
+						</div>
+						<div [ngStyle]="{'color':ques.question.accept == 1 ? 'green' : 'orange' ,'border':ques.question.accept == 1 ? 'solid 1px green':'solid 1px orange'}" style="display:inline-block;text-align:center;background: #f8f8f8;line-height:38px;width: 48px;vertical-align: bottom">
+							{{ques.question.answerCount}}
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-6 col-xs-6" style="line-height: 3em;font-weight: bold;">
+						{{(ques.question.accept==1)?"已采纳":"求解答"}}
+					</div>
+
+					<div class="col-md-7 col-sm-12 col-xs-12 list-detail">
+						<div class="row">
+							<p class="col-sm-12 col-xs-12">{{ques.question.title}}</p>
+							<div class="col-sm-4 col-xs-4" style="text-align:left;color:#000;">{{ques.author.nickName}}</div>
+							<div class="col-sm-4 col-xs-4" style="text-align:left;">{{ques.question.modifyTime.split(" ")[0]}}</div>
+							<div class="col-sm-4 col-xs-4" style="text-align:left;">{{ques.question.starCount}}人点赞</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-sm-4 hidden-xs animated">
+		<div style="margin-left: 10px;">
+			<app-forum-right-function></app-forum-right-function>
+		</div>
+	</div>
+
+	<app-modal-log #modal></app-modal-log>
+</div>

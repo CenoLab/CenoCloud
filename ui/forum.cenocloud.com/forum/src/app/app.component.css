@@ -1,0 +1,158 @@
+@media (min-width: 1500px){
+    .container {
+        width: 1466px;
+    }
+}
+
+#forum{
+    position: relative;
+    z-index: 9;
+    background: #f8f8f8;
+    box-shadow: 5px 0px 10px 2px #eee;
+    -webkit-box-shadow: 5px 0px 10px 2px #eee;
+    -o-box-shadow: 5px 0px 10px 2px #eee;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.mobile-translate{
+    -webkit-transform: translateX(-275px);
+    -ms-transform: translateX(-275px);
+    -o-transform: translateX(-275px);
+    transform: translateX(-275px);   
+    z-index: 2;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.mobile-right{
+    position: fixed;
+    width: 275px;
+    height: 100%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 0;
+    /* background-color: #000; */
+    color: #000;
+}
+
+.moblie-menu{
+    display: inline-block;
+    color: #000;
+    position: fixed;
+    top: 8px;
+    right: 5px;
+    z-index: 9;
+    padding:10px 5px;
+}
+
+.moblie-menu i{
+    position: relative;
+    display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    width: 30px;
+    height: 2px;
+    color: #000;
+    font: bold 14px/.4 Helvetica;
+    text-transform: uppercase;
+    text-indent: -55px;
+    background: #000;
+    transition: all .2s ease-out;
+}
+
+.moblie-menu i::before,.moblie-menu i::after {
+    content: '';
+    width: 30px;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    left: 0;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.dark2 i{
+    background: #fff;
+}
+
+.dark2 i::before,.dark2 i::after {
+    background: #fff;
+}
+
+.dark i{
+    background: #000;
+}
+
+.dark i::before,.dark i::after {
+    background: #000;
+}
+
+.moblie-menu i::before {
+    top: -9px;
+}
+
+.moblie-menu i::after {
+    bottom: -9px;
+}
+
+.moblie-menu-togger i{
+    background: transparent !important;
+}
+
+.moblie-menu-togger i::before {
+    top: 0;
+    background: #000;
+    -webkit-transform: rotateZ(45deg);
+    -moz-transform: rotateZ(45deg);
+    -ms-transform: rotateZ(45deg);
+    -o-transform: rotateZ(45deg);
+    transform: rotateZ(45deg);
+}
+
+.moblie-menu-togger i::after {
+    top: 0;
+    background: #000;
+    -webkit-transform: rotateZ-(45deg);
+    -moz-transform: rotateZ(-45deg);
+    -ms-transform: rotateZ(-45deg);
+    -o-transform: rotateZ(-45deg);
+    transform: rotateZ(-45deg);
+}
+
+.mobile-right .mobile-right-item{
+    width: 100%;
+    text-align: center;
+    margin: 25px auto;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.mobile-right .mobile-right-item:first-child{
+    margin:40px 0px 45px 0px;
+    padding: 0 50px;
+    text-align: center;
+}
+
+.mobile-right .mobile-right-item:last-child{
+    position: absolute; 
+    bottom: 30px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.mobile-right .mobile-right-item img{
+    filter: brightness(40%);
+}
+
+/* .forum-left{
+    background-color:red;
+}
+
+.forum-right{
+    background-color:blue;
+} */

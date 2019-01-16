@@ -1,0 +1,13 @@
+.idea/workspace.xml
+*/target
+.idea/artifacts/service_control_jar.xml
+.idea/dataSources.local.xml
+.idea/dataSources/
+.idea/sonarlint/
+common/sdk/java_sdk/java_dms/demo/MQTTDemo/bin
+out
+common/bin/*/*.jar
+common/bin/*/*.war
+common/bin/ZookeeperServer
+middleware/ndfs/index/target
+middleware/ndfs/data/target

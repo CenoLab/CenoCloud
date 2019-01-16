@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="api_gateway" />
+        <module name="common" />
+        <module name="data" />
+        <module name="facade_admin" />
+        <module name="facade_agent" />
+        <module name="facade_alarm" />
+        <module name="facade_app" />
+        <module name="facade_balance" />
+        <module name="facade_cms" />
+        <module name="facade_data" />
+        <module name="facade_ecs" />
+        <module name="facade_forum" />
+        <module name="facade_log" />
+        <module name="facade_monitor" />
+        <module name="facade_resources" />
+        <module name="facade_sso" />
+        <module name="facade_wo" />
+        <module name="index" />
+        <module name="middleware.dfs.client" />
+        <module name="middleware.nraft" />
+        <module name="monitor" />
+        <module name="mq" />
+        <module name="ndfs.client" />
+        <module name="ndfs.common" />
+        <module name="ndfs.data" />
+        <module name="ndfs.index" />
+        <module name="ndfs.monitor" />
+        <module name="parent" />
+        <module name="parent_admin" />
+        <module name="parent_agent" />
+        <module name="parent_alarm" />
+        <module name="parent_app" />
+        <module name="parent_balance" />
+        <module name="parent_cms" />
+        <module name="parent_control" />
+        <module name="parent_data" />
+        <module name="parent_ecs" />
+        <module name="parent_forum" />
+        <module name="parent_log" />
+        <module name="parent_monitor" />
+        <module name="parent_resources" />
+        <module name="parent_sso" />
+        <module name="parent_system" />
+        <module name="parent_wo" />
+        <module name="service_agent" />
+        <module name="service_alarm" />
+        <module name="service_app" />
+        <module name="service_cms" />
+        <module name="service_control" />
+        <module name="service_data" />
+        <module name="service_ecs" />
+        <module name="service_forum" />
+        <module name="service_monitor" />
+        <module name="service_sso" />
+        <module name="service_system" />
+        <module name="service_wo" />
+        <module name="web_app" />
+        <module name="web_control" />
+        <module name="web_data" />
+        <module name="web_ecs" />
+        <module name="web_forum" />
+        <module name="web_sso" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api_gateway" target="1.8" />
+      <module name="back_end" target="1.5" />
+      <module name="common" target="1.5" />
+      <module name="data" target="1.7" />
+      <module name="facade_admin" target="1.5" />
+      <module name="facade_agent" target="1.5" />
+      <module name="facade_alarm" target="1.5" />
+      <module name="facade_app" target="1.5" />
+      <module name="facade_balance" target="1.5" />
+      <module name="facade_cms" target="1.5" />
+      <module name="facade_data" target="1.5" />
+      <module name="facade_ecs" target="1.7" />
+      <module name="facade_forum" target="1.5" />
+      <module name="facade_log" target="1.5" />
+      <module name="facade_monitor" target="1.5" />
+      <module name="facade_resources" target="1.5" />
+      <module name="facade_sso" target="1.5" />
+      <module name="facade_wo" target="1.5" />
+      <module name="index" target="1.7" />
+      <module name="iot_cloud" target="1.5" />
+      <module name="middleware.dfs.client" target="1.7" />
+      <module name="middleware.nraft" target="1.7" />
+      <module name="monitor" target="1.7" />
+      <module name="mq" target="1.7" />
+      <module name="ndfs.client" target="1.7" />
+      <module name="ndfs.common" target="1.7" />
+      <module name="ndfs.data" target="1.7" />
+      <module name="ndfs.index" target="1.7" />
+      <module name="ndfs.monitor" target="1.7" />
+      <module name="nraft" target="1.7" />
+      <module name="parent" target="1.5" />
+      <module name="parent_admin" target="1.5" />
+      <module name="parent_agent" target="1.5" />
+      <module name="parent_alarm" target="1.5" />
+      <module name="parent_app" target="1.5" />
+      <module name="parent_balance" target="1.5" />
+      <module name="parent_cms" target="1.5" />
+      <module name="parent_control" target="1.5" />
+      <module name="parent_data" target="1.5" />
+      <module name="parent_ecs" target="1.7" />
+      <module name="parent_forum" target="1.5" />
+      <module name="parent_log" target="1.5" />
+      <module name="parent_monitor" target="1.5" />
+      <module name="parent_resources" target="1.5" />
+      <module name="parent_sso" target="1.5" />
+      <module name="parent_system" target="1.7" />
+      <module name="parent_wo" target="1.5" />
+      <module name="service_agent" target="1.5" />
+      <module name="service_alarm" target="1.5" />
+      <module name="service_app" target="1.7" />
+      <module name="service_cms" target="1.5" />
+      <module name="service_control" target="1.5" />
+      <module name="service_data" target="1.7" />
+      <module name="service_ecs" target="1.7" />
+      <module name="service_forum" target="1.7" />
+      <module name="service_monitor" target="1.5" />
+      <module name="service_sso" target="1.5" />
+      <module name="service_system" target="1.7" />
+      <module name="service_wo" target="1.5" />
+      <module name="web_app" target="1.5" />
+      <module name="web_control" target="1.5" />
+      <module name="web_data" target="1.5" />
+      <module name="web_ecs" target="1.5" />
+      <module name="web_forum" target="1.5" />
+      <module name="web_mobile" target="1.5" />
+      <module name="web_sso" target="1.5" />
+      <module name="web_sso (1)" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

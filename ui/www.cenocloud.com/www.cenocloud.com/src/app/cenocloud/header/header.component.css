@@ -1,0 +1,110 @@
+.header {
+    background: #222;
+    height: 61.8px;
+    background-size: 100% 100%;
+    height: 500px;
+    background-image: url('https://sw.qingcloud.com/static/images/marketing/internet_of_things/banner@2x.png');
+    z-index: 9999;
+}
+
+.header_mask {
+    position: absolute;
+    background-size: 100% 100%;
+    left: 0;
+    top: 0;
+    height: 200px;
+    margin-top: 310px;
+    width: 100%;
+}
+
+.header ul {
+    display: inline-block;
+    height: 61.8px;
+}
+
+.header ul li {
+    display: inline-block;
+    height: 61.8px;
+    color: #fff;
+    width: 130px;
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+}
+
+.header ul li:hover {
+    color: rgb(9, 139, 245);
+}
+
+.header ul li:hover .un-trangle {
+    border-top: solid rgb(9, 139, 245) 5px;
+}
+
+.header ul li:hover .trangle,
+.header ul li:hover .top-list-container,
+.top-list-container:hover+.trangle {
+    display: block;
+}
+
+.trangle {
+    display: none;
+    background: transparent;
+    width: 0px;
+    height: 0px;
+    border: solid transparent 20px;
+    border-bottom: solid #fff 20px;
+    position: absolute;
+    top: 25px;
+    left: 37px;
+}
+
+.un-trangle {
+    background: transparent;
+    width: 0px;
+    height: 0px;
+    border: solid transparent 5px;
+    border-top: solid #fff 5px;
+    position: absolute;
+    top: 30px;
+    left: 110px;
+}
+
+.top-list-container {
+    display: none;
+}
+
+.top-list-container ul {
+    text-align: left;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+.top-list-container ul li {
+    text-align: left;
+    height: 50px;
+    line-height: 50px;
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #000;
+}
+
+.top-list-container ul li:hover {
+    text-align: left;
+    background: #fff;
+}
+
+ul,
+menu,
+dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}

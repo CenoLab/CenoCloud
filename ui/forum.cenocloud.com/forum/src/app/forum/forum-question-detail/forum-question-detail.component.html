@@ -1,0 +1,86 @@
+<div>
+	<div [style.display]="load ? 'none' : 'block'" class="col-sm-8 col-xs-12 height-load">
+		<i class="fa fa-spinner  fa-4x fa-pulse"></i>
+	</div>
+	<div [style.display]="load ? 'block' : 'none'" class="col-sm-8 col-xs-12"  *ngFor="let ques_de of question_detail">
+		<div class="row new-title" >
+			<div class="col-sm-3 active">
+				问题详情
+			</div>
+		</div>
+		<div class="row article_container question" data-wow-delay="0.4s">
+			<h1 class="col-sm-12 col-xs-12 text-center">{{ques_de.question.title}}</h1>
+			<div class="col-sm-12 col-xs-12">
+				<div class="col-sm-3 col-xs-6">
+					{{ques_de.author.nickName}}
+				</div>
+				<div class="col-sm-3 col-xs-6">
+					{{ques_de.question.modifyTime.split(" ")[0]}}
+				</div>
+				<div class="col-sm-3 col-xs-6">
+					{{ques_de.question.starCount}}人点赞
+				</div>
+				<div class="col-sm-3 col-xs-6">
+					{{ques_de.question.answerCount}}人回答
+				</div>
+			</div>
+
+			<div class="col-sm-12 col-xs-12" [innerHTML]="ques_de.question.content" style="min-height: 150px;">
+			</div>
+
+		</div>
+		<div class="row article_container" data-wow-delay="0.4s">
+			<div class="col-sm-12 col-xs-12 form_group">
+				<div class="editor">
+					<div class="editor-container">
+						<textarea name="answer" rows="4" class="form-control js-mention js-auto-expand editor-content" id="comment" placeholder="写下你的评论…"
+						 required=""></textarea>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-xs-12 form_group">
+				<input type="text" placeholder="输入验证码内容" />
+				<img style="height:38px;" src="https://api.sso.cenocloud.com/login/nasde/create" />
+			</div>
+			<div class="col-sm-3 col-xs-6 form_group">
+				<button (click)="addAnswer()" type="submit" class="answer_button" style="width:100%;background: #36f;color:#fff;font-weight: bold;height: 3em;line-height: 3em;border:none;">回答</button>
+			</div>
+		</div>
+		<div class="row article_container" data-wow-delay="0.4s" *ngFor="let ans of question_detail[0].answers">
+			<div class="col-md-3 col-sm-3 col-xs-6">
+				<div [ngStyle]="{'background-color':ans.answer.isAccept == 1 ? 'green' : 'orange' }" style="display:inline-block;height:40px;width:42px;padding: 6px;">
+					<img *ngIf="ans.answer.isAccept == 1" style="height: 28px;" src="assets/img/zan_click.svg" />
+					<img *ngIf="ans.answer.isAccept == 0" style="height: 28px;" src="assets/img/zan.svg" />
+				</div>
+				<div [ngStyle]="{'color':ans.answer.isAccept == 1 ? 'green' : 'orange' ,'border':ans.answer.isAccept == 1 ? 'solid 1px green':'solid 1px orange'}"
+				 style="display:inline-block;text-align:center;background: #f8f8f8;line-height:38px;width: 48px;vertical-align: bottom">
+					{{ans.answer.starCount}}
+				</div>
+			</div>
+
+			<div class="col-md-9 col-sm-9 col-xs-12 list-detail">
+				<div class="row">
+					<div class="col-sm-12 col-xs-12" style="margin-bottom: 10px;">
+						{{ans.answer.content}} 
+					</div>
+					<div class="col-sm-3 col-xs-6 text-left" style="color:#000;">{{ans.author.nickName}}</div>
+					<div class="col-sm-3 col-xs-6 text-left">{{ans.answer.modifyTime.split(" ")[0]}}</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row text-center load_comment" (click)="getAnswer()">
+				<i *ngIf="load_ans==1"  class="fa fa-angle-double-down"></i>
+				<i *ngIf="load_ans==2" class="fa fa-spinner fa-spin"></i>
+				<p *ngIf="load_ans==3" class="list-over">没有更多回答了</p>
+			</div>
+	</div>
+
+	<div class="col-sm-4 hidden-xs">
+		<div style="margin-left: 10px;">
+			<app-forum-right-function></app-forum-right-function>
+		</div>
+	</div>
+
+	<app-modal-log #modal></app-modal-log>
+</div>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.iot.nero.facade_app.dao.DataPointDao">
+
+
+    <select id="getDataPoint" resultType="com.iot.nero.parent_app.entity.DataPoint">
+      select id as Id,
+      a_id as AppId,
+      p_name as  Name,
+      p_type as Type,
+      p_access as  Access,
+      p_create_time as CreateTime
+      from datapoint
+      where a_id = ${appid};
+    </select>
+
+    <select id="getDataPointByName" resultType="com.iot.nero.parent_app.entity.DataPoint">
+        select id as Id,
+        a_id as AppId,
+        p_name as  Name,
+        p_type as Type,
+        p_access as  Access,
+        p_create_time as CreateTime
+         from datapoint where p_name = '${name}';
+    </select>
+
+
+    <select id="getDataPointByNameAndAid" resultType="com.iot.nero.parent_app.entity.DataPoint">
+        select id as Id,
+        a_id as AppId,
+        p_name as  Name,
+        p_type as Type,
+        p_access as  Access,
+        p_create_time as CreateTime
+        from datapoint where p_name = '${name}'
+        and a_id = ${id}
+    </select>
+
+
+
+    <insert id="addDataPoint">
+        INSERT INTO datapoint (a_id,p_name,p_type,p_access)
+        VALUES (${id},'${name}','${type}',${access});
+    </insert>
+
+    <delete id="delDataPoint">
+        DELETE from datapoint where id = ${id};
+    </delete>
+
+    <select id="getDataPointById" resultType="com.iot.nero.parent_app.entity.DataPoint">
+        select id as Id,
+        a_id as AppId,
+        p_name as  Name,
+        p_type as Type,
+        p_access as  Access,
+        p_create_time as CreateTime
+        from datapoint where id = '${pid}';
+    </select>
+
+</mapper>

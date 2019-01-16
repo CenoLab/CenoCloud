@@ -1,0 +1,27 @@
+.footer{
+    padding:2em 0 0 1em;
+    margin-top:5em;
+    background:rgb(56,56,56);
+    color:#fff;
+    /* position: fixed;
+    bottom: 0;
+    width: 100%; */
+}
+
+.footer .icon{
+    padding: 10px 0;
+}
+
+.footer a{
+    margin: 10px 30px;
+}
+
+.footer p{
+    margin-top: 15px;
+}
+
+ @media screen and (max-width:768px){
+     .footer a{
+         margin: 10px 3%;
+     }
+ }

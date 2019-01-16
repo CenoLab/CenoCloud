@@ -1,0 +1,76 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.iot.nero</groupId>
+    <artifactId>iot_cloud</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>web_sso</module>
+        <module>service_sso</module>
+        <module>parent_sso</module>
+        <module>common</module>
+        <module>parent</module>
+        <module>facade_sso</module>
+        <module>web_app</module>
+        <module>facade_app</module>
+        <module>parent_app</module>
+        <module>service_app</module>
+        <module>mq</module>
+        <module>parent_balance</module>
+        <module>facade_balance</module>
+        <module>parent_data</module>
+        <module>facade_data</module>
+        <module>parent_agent</module>
+        <module>facade_agent</module>
+        <module>service_agent</module>
+        <module>facade_admin</module>
+        <module>facade_log</module>
+        <module>parent_admin</module>
+        <module>parent_log</module>
+        <module>parent_resources</module>
+        <module>facade_resources</module>
+        <module>parent_monitor</module>
+        <module>facade_monitor</module>
+        <module>service_monitor</module>
+        <module>parent_cms</module>
+        <module>facade_cms</module>
+        <module>service_cms</module>
+        <module>api_gateway</module>
+        <module>parent_wo</module>
+        <module>facade_wo</module>
+        <module>service_wo</module>
+        <module>parent_alarm</module>
+        <module>facade_alarm</module>
+        <module>service_alarm</module>
+        <module>web_data</module>
+        <module>service_data</module>
+        <module>service_control</module>
+        <module>parent_control</module>
+        <module>web_control</module>
+        <module>service_system</module>
+        <module>parent_system</module>
+        <module>facade_forum</module>
+        <module>service_forum</module>
+        <module>parent_ecs</module>
+        <module>facade_ecs</module>
+        <module>service_ecs</module>
+        <module>web_ecs</module>
+        <module>middleware/ndfs/index</module>
+        <module>middleware/ndfs/data</module>
+        <module>middleware/ndfs/client</module>
+        <module>middleware/ndfs/monitor</module>
+        <module>middleware/ndfs/common</module>
+        <module>middleware/nraft</module>
+    </modules>
+    <packaging>pom</packaging>
+
+    <name>iot_cloud</name>
+    <url>http://maven.apache.org</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+    </dependencies>
+</project>

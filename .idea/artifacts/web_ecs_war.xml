@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="web_ecs:war">
+    <output-path>$PROJECT_DIR$/web_ecs/target</output-path>
+    <root id="archive" name="web_ecs-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="web_ecs:war exploded" />
+    </root>
+  </artifact>
+</component>

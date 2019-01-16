@@ -1,0 +1,93 @@
+<div>
+	<!-- <div [style.display]="load ? 'none' : 'block'" class="col-sm-8 col-xs-12 height-load">
+		<i class="fa fa-spinner  fa-4x fa-pulse"></i>
+	</div> -->
+	<div class="animated fadeInLeft col-sm-8">
+		<div class="row new-title">
+			<div class="col-sm-3 active">
+				写文章
+			</div>
+		</div>
+		<div class="row article_container new-title2" data-wow-delay="0.4s">
+			<label class="col-sm-1 col-xs-2" for="title-input">标题</label>
+			<div class="col-md-12 col-xs-12">
+				<input type="text" id="title-input" placeholder="华丽的跌倒，胜过无谓的徘徊！" />
+			</div>
+			<div class="col-sm-12 col-xs-12 editor">
+				<quill-editor id="editor"></quill-editor>
+			</div>
+		</div>
+
+		<div class="row article_container new-title2" data-wow-delay="0.4s">
+			<label class="col-sm-12 col-xs-2" for="tag-input">标签</label>
+			<div class="col-sm-12 col-xs-12">
+				<input type="text" id="tag-input" placeholder="华丽的跌倒，胜过无谓的徘徊！" />
+			</div>
+		</div>
+
+		<div class="row article_container new-title2" data-wow-delay="0.4s">
+			<label class="col-sm-12 col-xs-12" for="abs-input">摘要
+				<i style="color:#bbb;">默认自动提取您文章的前150字显示在文章摘要的位置，您也可以在这里自行编辑，限150字。</i>
+			</label>
+			<div class="col-md-12 col-xs-12">
+				<input type="text" id="abs-input" placeholder="华丽的跌倒，胜过无谓的徘徊！" />
+			</div>
+		</div>
+		<div class="row article_container" data-wow-delay="0.4s">
+			<div class="col-sm-12 col-xs-12">
+				<p>关闭评论</p>
+				<input type="checkbox" name="article_comment" value="1" id="article_comment">
+				<label for="article_comment">本文章不允许别人评论</label>
+			</div>
+		</div>
+		<div class="row article_container type" data-wow-delay="0.4s">
+			<div class="col-sm-12 col-xs-12">
+				<p>文章类型</p>
+				<input type="radio" name="article_type" value="1" id="article_type1" checked />
+				<label for="article_type1" class="two_line">原创文章
+					<br>(经验总结等原创好文将有更多被推荐的机会)</label>
+				<div class="row hidden">
+					<input class="col-sm-5 col-xs-11 input" type="hidden" name="from_where1" value="原创">
+					<input class="col-sm-5 col-xs-11 input" type="hidden" name="from_url1" value="#">
+				</div>
+
+				<br>
+				<input type="radio" name="article_type" value="2" id="article_type2">
+				<label for="article_type2">翻译文章</label>
+				<div class="row" *ngIf="article_type1==2">
+					<input class="col-sm-5 col-xs-11 input" type="text" name="from_where2" placeholder="出自哪里">
+					<input class="col-sm-5 col-xs-11 input" type="text" name="from_url2" placeholder="url">
+				</div>
+				<br>
+				<input type="radio" name="article_type" value="3" id="article_type3">
+				<label for="article_type3">转载文章</label>
+				<div class="row" *ngIf="article_type1==3">
+					<input class="col-sm-5 col-xs-11 input" type="text" name="from_where3" placeholder="出自哪里">
+					<input class="col-sm-5 col-xs-11 input" type="text" name="from_url3" placeholder="url">
+				</div>
+			</div>
+		</div>
+		<div class="row article_container new-title2" data-wow-delay="0.4s">
+			<label for="verify-input">验证</label>
+			<div class="col-md-11 col-sm-10 col-xs-9">
+				<input placeholder="输入验证码内容" id="verify-input" style="width: 150px;" />
+				<img style="height: 38px" src="https://api.sso.cenocloud.com/login/nasde/create" />
+			</div>
+		</div>
+		<div class="row article_container" data-wow-delay="0.4s">
+			<div class="col-sm-12 col-xs-12">
+				<p>免责申明:用户承诺，自主发表的文章不存在任何知识产权问题，否则用户应自行承担全部责任，鲲云社区有权为权利人维权进行必要的配合。</p>
+				<button (click)="addNew()" class="col-sm-3 col-sm-offset-0 col-xs-6 col-xs-offset-3" style="background: #36f;color:#fff;font-weight: bold;height: 3em;line-height: 3em;border:none;">发布</button>
+			</div>
+		</div>
+	</div>
+
+	<div class="animated col-sm-4 hidden-xs">
+		<div style="margin-left: 10px;">
+			<app-forum-right-function></app-forum-right-function>
+		</div>
+	</div>
+
+
+	<app-modal-log #modal></app-modal-log>
+</div>

@@ -1,0 +1,34 @@
+<div id="forum" class="" (scroll)="scroll($event)" style="height: 100%; overflow: auto">
+	<app-forum-nav class="hidden-xs"></app-forum-nav>
+	<div class="container">
+		<div class="row">
+			<router-outlet></router-outlet>
+		</div>
+	</div>
+	<app-forum-footer class="forum-footer hidden-xs"></app-forum-footer>
+</div>
+
+<div class="moblie-menu visible-xs" (click)="show_menu()">
+	<i></i>
+</div>
+
+<div class="mobile-right">
+	<div style="position: relative;height: 100%;">
+		<div class="mobile-right-item">
+			<img width="100%" src="assets/img/CenoCloudLogo.png">
+		</div>
+		<div class="mobile-right-item" (click)="skipto('/forum/index')">
+			社区首页
+		</div>
+		<div class="mobile-right-item" (click)="skipto('/forum/new')">
+			写文章
+		</div>
+		<div class="mobile-right-item" (click)="skipto('/forum/question')">
+			提问题
+		</div>
+		<div class="mobile-right-item">
+			<p>COPYRIGHT &copy; 2017-2025 CenoCloud+</p>
+			<a>京ICP备17044594号-1</a>
+		</div>
+	</div>
+</div>

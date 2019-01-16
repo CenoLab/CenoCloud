@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+         http://www.springframework.org/schema/beans/spring-beans.xsd
+         http://www.springframework.org/schema/context
+         http://www.springframework.org/schema/context/spring-context-3.2.xsd ">
+    <context:property-placeholder location="classpath:jdbc.properties"/>
+
+    <!-- database connection pool-->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+
+        <!--config database connection pool-->
+        <property name="driverClass" value="${log.driver}"/>
+        <property name="jdbcUrl" value="${log.url}"/>
+        <property name="user" value="${log.jdbc.username}"/>
+        <property name="password" value="${log.jdbc.password}"/>
+
+        <!--private property of c3p0 connection pool-->
+        <!--private property of c3p0 connection pool-->
+        <property name="maxPoolSize" value="${c3p0.maxPoolSize}"/>
+        <property name="minPoolSize" value="${c3p0.minPoolSize}"/>
+        <property name="autoCommitOnClose" value="${c3p0.autoCommitOnClose}"/>
+        <property name="checkoutTimeout" value="${c3p0.checkoutTimeout}"/>
+        <property name="acquireRetryAttempts" value="${c3p0.acquireRetryAttempts}"/>
+
+        <property name="maxIdleTime" value="1800"/>
+        <property name="preferredTestQuery" value="SELECT 1"/>
+        <property name="idleConnectionTestPeriod" value="18000"/>
+        <property name="testConnectionOnCheckout" value="true"/>
+
+
+    </bean>
+
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="configLocation" value="classpath:mybatis-config.xml"/>
+        <property name="typeAliasesPackage" value="com.iot.nero.parent_log.entity"/>
+        <property name="mapperLocations" value="classpath:facade_log/mapper/*.xml"/>
+    </bean>
+
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+        <property name="basePackage" value="com.iot.nero.facade_log.dao"/>
+    </bean>
+
+
+</beans>

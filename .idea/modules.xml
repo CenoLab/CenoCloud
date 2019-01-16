@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/api_gateway/api_gateway.iml" filepath="$PROJECT_DIR$/api_gateway/api_gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facade_admin/facade_admin.iml" filepath="$PROJECT_DIR$/facade_admin/facade_admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facade_agent/facade_agent.iml" filepath="$PROJECT_DIR$/facade_agent/facade_agent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facade_alarm/facade_alarm.iml" filepath="$PROJECT_DIR$/facade_alarm/facade_alarm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facade_app/facade_app.iml" filepath="$PROJECT_DIR$/facade_app/facade_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facade_balance/facade_balance.iml" filepath="$PROJECT_DIR$/facade_balance/facade_balance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facade_cms/facade_cms.iml" filepath="$PROJECT_DIR$/facade_cms/facade_cms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facade_data/facade_data.iml" filepath="$PROJECT_DIR$/facade_data/facade_data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facade_ecs/facade_ecs.iml" filepath="$PROJECT_DIR$/facade_ecs/facade_ecs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facade_forum/facade_forum.iml" filepath="$PROJECT_DIR$/facade_forum/facade_forum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facade_log/facade_log.iml" filepath="$PROJECT_DIR$/facade_log/facade_log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facade_monitor/facade_monitor.iml" filepath="$PROJECT_DIR$/facade_monitor/facade_monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facade_resources/facade_resources.iml" filepath="$PROJECT_DIR$/facade_resources/facade_resources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facade_sso/facade_sso.iml" filepath="$PROJECT_DIR$/facade_sso/facade_sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facade_wo/facade_wo.iml" filepath="$PROJECT_DIR$/facade_wo/facade_wo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iot_cloud.iml" filepath="$PROJECT_DIR$/iot_cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/middleware/nraft/raft/middleware.nraft.iml" filepath="$PROJECT_DIR$/middleware/nraft/raft/middleware.nraft.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mq/mq.iml" filepath="$PROJECT_DIR$/mq/mq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/middleware/ndfs/client/ndfs.client.iml" filepath="$PROJECT_DIR$/middleware/ndfs/client/ndfs.client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/middleware/ndfs/common/ndfs.common.iml" filepath="$PROJECT_DIR$/middleware/ndfs/common/ndfs.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/middleware/ndfs/data/ndfs.data.iml" filepath="$PROJECT_DIR$/middleware/ndfs/data/ndfs.data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/middleware/ndfs/index/ndfs.index.iml" filepath="$PROJECT_DIR$/middleware/ndfs/index/ndfs.index.iml" />
+      <module fileurl="file://$PROJECT_DIR$/middleware/ndfs/monitor/ndfs.monitor.iml" filepath="$PROJECT_DIR$/middleware/ndfs/monitor/ndfs.monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/parent.iml" filepath="$PROJECT_DIR$/parent/parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent_admin/parent_admin.iml" filepath="$PROJECT_DIR$/parent_admin/parent_admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent_agent/parent_agent.iml" filepath="$PROJECT_DIR$/parent_agent/parent_agent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent_alarm/parent_alarm.iml" filepath="$PROJECT_DIR$/parent_alarm/parent_alarm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent_app/parent_app.iml" filepath="$PROJECT_DIR$/parent_app/parent_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent_balance/parent_balance.iml" filepath="$PROJECT_DIR$/parent_balance/parent_balance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent_cms/parent_cms.iml" filepath="$PROJECT_DIR$/parent_cms/parent_cms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent_control/parent_control.iml" filepath="$PROJECT_DIR$/parent_control/parent_control.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent_data/parent_data.iml" filepath="$PROJECT_DIR$/parent_data/parent_data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent_ecs/parent_ecs.iml" filepath="$PROJECT_DIR$/parent_ecs/parent_ecs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent_forum/parent_forum.iml" filepath="$PROJECT_DIR$/parent_forum/parent_forum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent_log/parent_log.iml" filepath="$PROJECT_DIR$/parent_log/parent_log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent_monitor/parent_monitor.iml" filepath="$PROJECT_DIR$/parent_monitor/parent_monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent_resources/parent_resources.iml" filepath="$PROJECT_DIR$/parent_resources/parent_resources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent_sso/parent_sso.iml" filepath="$PROJECT_DIR$/parent_sso/parent_sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent_system/parent_system.iml" filepath="$PROJECT_DIR$/parent_system/parent_system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent_wo/parent_wo.iml" filepath="$PROJECT_DIR$/parent_wo/parent_wo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service_agent/service_agent.iml" filepath="$PROJECT_DIR$/service_agent/service_agent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service_alarm/service_alarm.iml" filepath="$PROJECT_DIR$/service_alarm/service_alarm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service_app/service_app.iml" filepath="$PROJECT_DIR$/service_app/service_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service_cms/service_cms.iml" filepath="$PROJECT_DIR$/service_cms/service_cms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service_control/service_control.iml" filepath="$PROJECT_DIR$/service_control/service_control.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service_data/service_data.iml" filepath="$PROJECT_DIR$/service_data/service_data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service_ecs/service_ecs.iml" filepath="$PROJECT_DIR$/service_ecs/service_ecs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service_forum/service_forum.iml" filepath="$PROJECT_DIR$/service_forum/service_forum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service_monitor/service_monitor.iml" filepath="$PROJECT_DIR$/service_monitor/service_monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service_sso/service_sso.iml" filepath="$PROJECT_DIR$/service_sso/service_sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service_system/service_system.iml" filepath="$PROJECT_DIR$/service_system/service_system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service_wo/service_wo.iml" filepath="$PROJECT_DIR$/service_wo/service_wo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web_app/web_app.iml" filepath="$PROJECT_DIR$/web_app/web_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web_control/web_control.iml" filepath="$PROJECT_DIR$/web_control/web_control.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web_data/web_data.iml" filepath="$PROJECT_DIR$/web_data/web_data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web_ecs/web_ecs.iml" filepath="$PROJECT_DIR$/web_ecs/web_ecs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web_forum/web_forum.iml" filepath="$PROJECT_DIR$/web_forum/web_forum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web_sso/web_sso.iml" filepath="$PROJECT_DIR$/web_sso/web_sso.iml" />
+    </modules>
+  </component>
+</project>

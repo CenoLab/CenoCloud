@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.iot.nero.facade_forum.dao.ArticleDao">
+    <insert id="addArticle">
+      INSERT  INTO article
+      (author_id,title,content,tags_id,can_comment,abstract,type,from_where,from_url)
+      VALUES
+      (${authorId},'${title}','${content}','${tagsId}',${canComment},'${abstractContent}',${type},'${fromWhere}','${fromUrl}');
+    </insert>
+
+    <update id="increaseFavCount">
+      UPDATE article A
+      SET
+           A.fav_count = A.fav_count+1
+      WHERE
+      A.id  = ${articleId}
+      AND
+      A.del = 0;
+
+    </update>
+
+    <update id="decreaseFavCount">
+      UPDATE article A
+      SET
+           A.fav_count = A.fav_count-1
+      WHERE
+      A.id  = ${articleId}
+      AND
+      A.del = 0;
+    </update>
+
+    <update id="increaseStarCount">
+      UPDATE article A
+      SET
+           A.star_count = A.star_count+1
+      WHERE
+      A.id  = ${articleId}
+      AND
+      A.del = 0;
+    </update>
+
+    <select id="findArticleById" resultType="com.iot.nero.parent_facade.entity.Article">
+      SELECT
+      id            AS id,
+      author_id     AS authorId,
+      title         AS title,
+      content       AS content,
+      read_count    AS readCount,
+      tags_id       AS tagsId,
+      can_comment   AS canComment,
+      abstract      AS abstractContent,
+      type          AS type,
+      start_count   AS startCount,
+      from_where    AS fromWhere,
+      from_url      AS fromUrl,
+      del           AS del,
+      star_count    AS starCount,
+       fav_count    AS favCount,
+      modify_time   AS modifyTime,
+      create_time   AS createTime
+      FROM article
+      WHERE
+      id = ${id}
+       AND
+      del = 0;
+    </select>
+    <select id="listArticlesByAuthorId" resultType="com.iot.nero.parent_facade.entity.Article">
+      SELECT
+      id            AS id,
+      author_id     AS authorId,
+      title         AS title,
+      content       AS content,
+      read_count    AS readCount,
+      tags_id       AS tagsId,
+      can_comment   AS canComment,
+      abstract      AS abstractContent,
+      type          AS type,
+      start_count   AS startCount,
+      from_where    AS fromWhere,
+      from_url      AS fromUrl,
+      star_count    AS starCount,
+       fav_count    AS favCount,
+      del           AS del,
+      modify_time   AS modifyTime,
+      create_time   AS createTime
+      FROM article
+      WHERE author_id = ${aid}
+      AND del = 0
+      ORDER BY modify_time DESC
+      limit ${page},${num};
+
+    </select>
+    <select id="descArticleByStarCount" resultType="com.iot.nero.parent_facade.entity.Article">
+      SELECT
+      id            AS id,
+      author_id     AS authorId,
+      title         AS title,
+      content       AS content,
+      read_count    AS readCount,
+      tags_id       AS tagsId,
+      can_comment   AS canComment,
+      abstract      AS abstractContent,
+      type          AS type,
+      start_count   AS startCount,
+      from_where    AS fromWhere,
+      from_url      AS fromUrl,
+      star_count    AS starCount,
+       fav_count    AS favCount,
+      del           AS del,
+      modify_time   AS modifyTime,
+      create_time   AS createTime
+      FROM article
+      WHERE del = 0
+      ORDER BY start_count DESC
+      limit ${page},${num};
+    </select>
+    <select id="descArticleByTime" resultType="com.iot.nero.parent_facade.entity.Article">
+      SELECT
+      id            AS id,
+      author_id     AS authorId,
+      title         AS title,
+      content       AS content,
+      read_count    AS readCount,
+      tags_id       AS tagsId,
+      can_comment   AS canComment,
+      abstract      AS abstractContent,
+      type          AS type,
+      start_count   AS startCount,
+      from_where    AS fromWhere,
+      from_url      AS fromUrl,
+      star_count    AS starCount,
+       fav_count    AS favCount,
+      del           AS del,
+      modify_time   AS modifyTime,
+      create_time   AS createTime
+      FROM article
+      WHERE del = 0
+      ORDER BY modify_time DESC
+      limit ${page},${num};
+    </select>
+  <select id="descArticleByStarCountDay" resultType="com.iot.nero.parent_facade.entity.Article"></select>
+</mapper>

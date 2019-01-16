@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.iot.nero.facade_sso.dao.VerifyDao">
+    <!--VerifyCode getVerifyCodeByDeveloperIdAndEmail(@Param("did") Integer developerId,@Param("email") String email);-->
+    <select id="getVerifyCodeByDeveloperIdAndEmail" resultType="com.iot.nero.parent_sso.entity.VerifyCode">
+      select
+      id as id,
+      d_id as developer_id,
+      d_email as developer_email,
+      d_phone as developer_phone,
+      d_email_code as developer_email_code,
+      d_phone_code as developer_phone_code,
+      d_email_code_sendtime as developer_email_code_send_time,
+      d_phone_code_sendtime as developer_phone_code_send_time,
+      d_verify_createtime as developer_verify_create_time
+      from developer_verify where d_id = ${did} and d_email = '${email}';
+    </select>
+
+    <!--VerifyCode getVerifyCodeByPhone(String phone);-->
+    <select id="getVerifyCodeByPhone" resultType="com.iot.nero.parent_sso.entity.VerifyCode">
+        select
+        id as id,
+        d_id as developer_id,
+        d_email as developer_email,
+        d_phone as developer_phone,
+        d_email_code as developer_email_code,
+        d_phone_code as developer_phone_code,
+        d_email_code_sendtime as developer_email_code_send_time,
+        d_phone_code_sendtime as developer_phone_code_send_time,
+        d_verify_createtime as developer_verify_create_time
+        from developer_verify where d_phone = '${phone}';
+    </select>
+
+    <!--VerifyCode getVerifyCodeByEmail(String email);-->
+    <select id="getVerifyCodeByEmail" resultType="com.iot.nero.parent_sso.entity.VerifyCode">
+        select
+        id as id,
+        d_id as developer_id,
+        d_email as developer_email,
+        d_phone as developer_phone,
+        d_email_code as developer_email_code,
+        d_phone_code as developer_phone_code,
+        d_email_code_sendtime as developer_email_code_send_time,
+        d_phone_code_sendtime as developer_phone_code_send_time,
+        d_verify_createtime as developer_verify_create_time
+        from developer_verify where d_email = '${email}';
+    </select>
+
+    <!--Integer insertIntoEmailVerifyCode(@Param("did") Integer id, @Param("email") String email, @Param("code") String verifyCode);-->
+    <insert id="insertIntoEmailVerifyCode">
+        insert into developer_verify
+        (d_id,d_email,d_email_code)
+        VALUES
+        (${did},'${email}','${code}');
+    </insert>
+
+    <!--Integer updateEmailCodeByDeveloperIdAndEmail(@Param("did") Integer developerId,@Param("email") String email,@Param("code") String code);-->
+    <update id="updateEmailCodeByDeveloperIdAndEmail">
+      update developer_verify SET
+      d_email_code = '${code}',d_email_code_sendtime = CURRENT_TIMESTAMP
+      where
+      d_id = ${did} and d_email = '${email}'
+    </update>
+</mapper>

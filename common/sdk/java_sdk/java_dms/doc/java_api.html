@@ -1,0 +1,92 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <title></title>
+<style id="system" type="text/css">h1,h2,h3,h4,h5,h6,p,blockquote {    margin: 0;    padding: 0;}body {    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;    font-size: 13px;    line-height: 18px;    color: #737373;    margin: 10px 13px 10px 13px;}a {    color: #0069d6;}a:hover {    color: #0050a3;    text-decoration: none;}a img {    border: none;}p {    margin-bottom: 9px;}h1,h2,h3,h4,h5,h6 {    color: #404040;    line-height: 36px;}h1 {    margin-bottom: 18px;    font-size: 30px;}h2 {    font-size: 24px;}h3 {    font-size: 18px;}h4 {    font-size: 16px;}h5 {    font-size: 14px;}h6 {    font-size: 13px;}hr {    margin: 0 0 19px;    border: 0;    border-bottom: 1px solid #ccc;}blockquote {    padding: 13px 13px 21px 15px;    margin-bottom: 18px;    font-family:georgia,serif;    font-style: italic;}blockquote:before {    content:"C";    font-size:40px;    margin-left:-10px;    font-family:georgia,serif;    color:#eee;}blockquote p {    font-size: 14px;    font-weight: 300;    line-height: 18px;    margin-bottom: 0;    font-style: italic;}code, pre {    font-family: Monaco, Andale Mono, Courier New, monospace;}code {    background-color: #fee9cc;    color: rgba(0, 0, 0, 0.75);    padding: 1px 3px;    font-size: 12px;    -webkit-border-radius: 3px;    -moz-border-radius: 3px;    border-radius: 3px;}pre {    display: block;    padding: 14px;    margin: 0 0 18px;    line-height: 16px;    font-size: 11px;    border: 1px solid #d9d9d9;    white-space: pre-wrap;    word-wrap: break-word;}pre code {    background-color: #fff;    color:#737373;    font-size: 11px;    padding: 0;}@media screen and (min-width: 768px) {    body {        width: 748px;        margin:10px auto;    }}</style><style id="custom" type="text/css"></style></head>
+<body marginheight="0"><h1>DMS Java API</h1>
+<h1>导入Jar包</h1>
+<pre><code>org.eclipse.paho.client.mqttv3_1.0.2_dms.jar</code></pre>
+<h1>初始化</h1>
+<pre><code>String clientId = "JavaSample1";
+//默认地址是 "tcp://mqtt.dms.aodianyun.com:1883"
+DMS.init(clientId, new MqttCallback() {
+    @Override
+    public void connectionLost(Throwable cause) {
+        System.out.println("connectionLost");
+    }
+    @Override
+    public void messageArrived(String topic, MqttMessage message)
+            throws Exception {
+        System.out.println("messageArrived: " + message);
+    }
+    @Override
+    public void deliveryComplete(IMqttDeliveryToken token) {
+        System.out.println("deliveryComplete");
+    }
+});</code></pre>
+<h1>连接服务器</h1>
+<pre><code>String pub_key = "demo";
+String sub_key = "demo";
+IMqttToken token = null;
+token = DMS.connect(pub_key,sub_key, null, new IMqttActionListener() {
+    @Override
+    public void onSuccess(IMqttToken asyncActionToken) {
+        System.out.println("connect--&gt;onSuccess");
+    }
+    @Override
+    public void onFailure(IMqttToken asyncActionToken, Throwable exception) {
+        System.out.println("connect--&gt;onFailure");
+    }
+});
+//等待连接成功
+token.waitForCompletion();      </code></pre>
+<h1>关注话题</h1>
+<pre><code>String topic = "test";
+token = DMS.subscribe(topic, null,new IMqttActionListener() {
+    @Override
+    public void onSuccess(IMqttToken asyncActionToken) {
+        System.out.println("subscribe--&gt;onSuccess");
+    }
+    @Override
+    public void onFailure(IMqttToken asyncActionToken, Throwable exception) {
+        System.out.println("subscribe--&gt;onFailure");
+    }
+});
+//等待关注动作完成
+token.waitForCompletion();</code></pre>
+<h1>推送消息</h1>
+<pre><code>String topic = "test";
+String content = "Message from JavaClient1";
+token = DMS.publish(topic, content, null, new IMqttActionListener() {
+    @Override
+    public void onSuccess(IMqttToken asyncActionToken) {
+        System.out.println("publish--&gt;onSuccess");
+    }
+    @Override
+    public void onFailure(IMqttToken asyncActionToken, Throwable exception) {
+        System.out.println("publish--&gt;onFailure");
+    }
+});
+//等待推送消息完毕
+token.waitForCompletion();             </code></pre>
+<h1>取消关注</h1>
+<pre><code>String topic = "test";
+//也可以注册监听器
+token = DMS.unsubscribe(topic);
+//等待取消完成
+token.waitForCompletion();</code></pre>
+<h1>断开连接</h1>
+<pre><code>token = DMS.disconnect(null, new IMqttActionListener() {
+    @Override
+    public void onSuccess(IMqttToken asyncActionToken) {
+        System.out.println("disconnect--&gt;onSuccess");
+    }
+    @Override
+    public void onFailure(IMqttToken asyncActionToken, Throwable exception) {
+        System.out.println("disconnect--&gt;onFailure");
+    }
+});
+token.waitForCompletion();</code></pre>
+<h1>释放资源</h1>
+<pre><code>DMS.close();</code></pre>
+<p>Edit By <a href="http://mahua.jser.me">MaHua</a></p>
+</body></html>

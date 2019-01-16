@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.iot.nero.facade_sso.dao.DeveloperDao">
+
+    <select id="getDeveloperByEmail" resultType="com.iot.nero.parent_sso.entity.Developer">
+          select D.id as Id,
+          D.d_name as Name,
+          D.d_company as Company,
+          D.d_email as Email,
+          D.d_phone as Phone,
+          D.d_pwd as Pwd,
+          D.d_token as Token,
+          D.d_android_token as AndroidToken,
+          D.d_iphone_token as IphoneToken,
+          D.d_auth_token as AuthToken,
+          D.d_is_android_online as IsAndroidOnline,
+          D.d_is_iphone_online as IsIphoneOnline,
+          D.d_createtime as CreateTime,
+          D.d_is_active as IsActive
+          from developers D where D.d_email = '${email}';
+    </select>
+    <select id="getDeveloperByPhone" resultType="com.iot.nero.parent_sso.entity.Developer">
+        select D.id as Id,
+        D.d_name as Name,
+        D.d_company as Company,
+        D.d_email as Email,
+        D.d_phone as Phone,
+        D.d_pwd as Pwd,
+        D.d_token as Token,
+        D.d_android_token as AndroidToken,
+        D.d_iphone_token as IphoneToken,
+        D.d_auth_token as AuthToken,
+        D.d_is_android_online as IsAndroidOnline,
+        D.d_is_iphone_online as IsIphoneOnline,
+        D.d_createtime as CreateTime,
+        D.d_is_active as IsActive
+        from developers D where D.d_phone = '${phone}';
+    </select>
+
+    <select id="getDeveloperById" resultType="com.iot.nero.parent_sso.entity.Developer">
+        select D.id as Id,
+        D.d_name as Name,
+        D.d_company as Company,
+        D.d_email as Email,
+        D.d_phone as Phone,
+        D.d_pwd as Pwd,
+        D.d_token as Token,
+        D.d_android_token as AndroidToken,
+        D.d_iphone_token as IphoneToken,
+        D.d_auth_token as AuthToken,
+        D.d_is_android_online as IsAndroidOnline,
+        D.d_is_iphone_online as IsIphoneOnline,
+        D.d_createtime as CreateTime,
+         D.d_is_active as IsActive
+        from developers D where D.id = '${uid}';
+    </select>
+
+    <select id="getDeveloperInfoByEmail" resultType="com.iot.nero.parent_sso.dto.DeveloperInfo">
+        select D.id as Id,
+        D.d_name as Name,
+        D.d_company as Company,
+        D.d_email as Email,
+        D.d_phone as Phone,
+        D.d_token as Token,
+        D.d_createtime as CreateTime
+        from developers D where D.d_email = '${email}';
+    </select>
+
+    <select id="getDeveloperByToken" resultType="com.iot.nero.parent_sso.entity.Developer">
+        select D.id as Id,
+        D.d_name as Name,
+        D.d_company as Company,
+        D.d_email as Email,
+        D.d_phone as Phone,
+        D.d_pwd as Pwd,
+        D.d_token as Token,
+        D.d_android_token as AndroidToken,
+        D.d_iphone_token as IphoneToken,
+        D.d_auth_token as AuthToken,
+        D.d_is_android_online as IsAndroidOnline,
+        D.d_is_iphone_online as IsIphoneOnline,
+        D.d_createtime as CreateTime
+        from developers D where D.${which_token} = '${tt}';
+    </select>
+
+    <update id="updateDeveloperToken">
+        update developers D set D.${which_token} = '${token}' where D.d_email = '${phoneoremail}'or D.d_phone = '${phoneoremail}';
+    </update>
+
+    <update id="updateDeveloperPasswordAndName">
+        update developers D set D.d_token = '${token}',D.d_name = '${name}',D.d_pwd = '${pwd}' where D.d_email = '${email}';
+    </update>
+
+    <insert id="addDeveloperBase">
+        insert into developers (d_name,d_email,d_pwd,d_token,d_android_token,d_iphone_token,d_auth_token)
+        VALUES
+        ('${name}','${email}','${pwd}','${token}','${token}','${token}','${token}') ;
+    </insert>
+
+
+    <update id="updateDeveloperBase">
+      update developers set d_name = '${name}',d_pwd = '${pwd}',d_token = '${token}'
+      where d_email='${email}';
+    </update>
+
+    <!--Integer updateDeveloperIsActiveByEmail(String email);-->
+    <update id="updateDeveloperIsActiveByEmail">
+        update developers set d_is_active = 1 where d_email = '${email}';
+    </update>
+
+
+    <select id="getDeveloperAdds" resultType="com.iot.nero.parent_sso.entity.DeveloperAdds">
+        SELECT
+          id as  Id,
+          d_id as DId,
+          d_profession as DProfession,
+          d_bussiness as DBussiness,
+          d_website as DWebsite,
+          d_country as DCountry,
+          d_address as DAddress,
+          d_street as DStreet,
+          d_tel as DTel,
+          d_fax as DFax,
+          d_adds_createtime as DAddsCreateTime
+        from developer_adds where d_id = ${did};
+    </select>
+
+
+    <insert id="insertDeveloperAdds">
+        insert into developer_adds
+        (d_id,d_profession,d_bussiness ,d_website ,d_country ,d_address ,d_street,d_tel,d_fax)
+        VALUES
+        ('${did}','${dprofessionession}','${dbussiness}','${dwebsite}','${dcountry}','${daddress}','${dstreet}','${dtel}','${dfax}');
+    </insert>
+
+
+    <update id="updateDeveloperAdds">
+        update developer_adds SET
+          d_profession='${dprofessionession}',
+          d_bussiness ='${dbussiness}',
+          d_website ='${dwebsite}',
+          d_country ='${dcountry}',
+          d_address ='${daddress}',
+          d_street='${dstreet}',
+          d_tel='${dtel}',
+          d_fax =  '${dfax}'
+        from developer_adds where d_id = ${did};
+    </update>
+
+
+    <update id="changeName">
+        UPDATE  developers set
+        d_name = '${name}',
+        d_company = '${company}'
+        where d_id = ${did};
+    </update>
+
+
+    <update id="changePwd">
+        update developers set d_pwd= '${pwd}'
+        where d_id = ${did};
+    </update>
+
+
+</mapper>

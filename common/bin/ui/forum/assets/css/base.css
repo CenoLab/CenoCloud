@@ -1,0 +1,99 @@
+html,body{
+    background: #f8f8f8;
+    height: 100%;
+    outline: none;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.bg-white{
+    background-color: #fff;
+}
+
+.white{
+    color: white;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+i.fa{
+    margin: 0 5px;
+}
+
+.height-load{
+    height: 1000px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+input[type='text']{
+    height: 38px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+}
+
+input{
+    padding: 0 10px;
+}
+
+input:focus{
+    border: 1px solid #36f;
+    outline:none;
+}
+
+label{
+    display: inline;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.article_container:last-child{
+    margin-bottom: 30px;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.ql-image{
+    display: none  !important;
+}
+
+.ql-image2{
+    outline: none;
+}
+
+.ql-editing{
+    left: 10px !important;
+}
+
+.ql-editing2{
+    top: 80px
+}
+
+.ql-snow .ql-tooltip[data-mode=image]::before {
+    content: "Enter image:";
+}
+
+.article-content img{
+    width: 100%;
+}

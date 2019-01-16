@@ -1,0 +1,16 @@
+package com.iot.nero.parent_facade.exception;
+
+/**
+ * Author neroyang
+ * Email  nerosoft@outlook.com
+ * Date   2018/5/29
+ * Time   上午8:25
+ */
+public class ArticleFavoriteFailedException extends Exception {
+    public ArticleFavoriteFailedException() {
+    }
+
+    public ArticleFavoriteFailedException(String message) {
+        super(message);
+    }
+}

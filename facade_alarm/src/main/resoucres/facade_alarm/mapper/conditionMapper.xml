@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.iot.nero.facade_alarm.dao.ConditionDao">
+
+
+    <select id="getConditionsByDataPointId" resultType="com.iot.nero.parent_alarm.entity.Condition">
+        select
+        id as Id,
+        d_id as Did,
+        d_index as DIndex,
+        express_id as ExpressId,
+        right_value_type as RightValueType,
+        right_value as RightValue,
+        create_time  as CreateTime
+        from conditions
+        WHERE
+        d_id = ${did};
+    </select>
+
+    <insert id="insertCondition">
+        INSERT into conditions
+        (d_id,d_index,express_id,right_value_type,right_value)
+        VALUES
+        (${did},${index},${eid},${rt},'${rv}');
+    </insert>
+
+</mapper>

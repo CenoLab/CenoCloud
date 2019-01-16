@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.iot.nero.facade_log.dao.LogDao">
+
+    <insert id="insertClientLog">
+        insert into app_${key}_client_log
+        (l_type,l_level,l_log)
+        VALUES
+        (${type},${level},'${message}');
+    </insert>
+
+    <update id="createClientLogTable">
+        CREATE TABLE  if NOT EXISTS app_${key}_client_log(
+          id int(32) NOT NULL  PRIMARY KEY AUTO_INCREMENT,
+          l_type int(32) NOT NULL ,
+          l_level int(32) NOT NULL ,
+          l_log TEXT charset utf8 collate utf8_general_ci,
+          l_create_time DATETIME DEFAULT current_timestamp
+        );
+    </update>
+
+    <select id="getClientLog" resultType="com.iot.nero.parent_log.entity.ClientLog">
+          select
+          id as  Id,
+          l_type as  Type,
+          l_level as  Level,
+          l_log as  Log,
+          l_create_time as CreateTime
+          from app_${key}_client_log
+        <if test="level!=0 and type!=0">
+           where
+          l_type=${type} and l_level=${level}
+        </if>
+        <if test="level!=0 and type==0">
+            where
+         l_level=${level}
+        </if>
+        <if test="level==0 and type!=0">
+            where
+            l_type=${type}
+        </if>
+        <if test="level==0 and type==0">
+
+        </if>
+          limit ${page},${num};
+    </select>
+
+
+
+    <select id="getCount" resultType="Integer">
+        select
+        count(*)
+        from app_${key}_client_log
+
+        <if test="level!=0 and type!=0">
+            where
+            l_type=${type} and l_level=${level}
+        </if>
+        <if test="level!=0 and type==0">
+            where
+            l_level=${level}
+        </if>
+        <if test="level==0 and type!=0">
+            where
+            l_type=${type}
+        </if>
+        <if test="level==0 and type==0">
+
+        </if>
+    </select>
+
+    <insert id="insertSysLog">
+        insert into sys_log
+        (l_s_type,l_s_content)
+        VALUES
+         (${type},'${content}');
+    </insert>
+
+</mapper>

@@ -1,0 +1,26 @@
+<app-forum-left #left1 class="col-sm-8 col-xs-12 forum-left"></app-forum-left>
+<app-forum-right class="col-sm-4 hidden-xs forum-right"></app-forum-right>
+
+<div *ngIf="modal" class="mymodal">
+    <div class="mymodal-content">
+        <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">
+                欢迎加入CenoCloud开发者社区
+            </h4>
+        </div>
+        <div class="modal-body">
+            <label for="nickname">昵称</label>
+            <div class="input_div">
+                <input type="text" name="name" id="nickname" placeholder="请输入一个酷酷的昵称 ^_^">
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-primary" (click)="addName()">
+                同意社区协议并加入社区
+            </button>
+            <a>CenoCloud社区用户协议</a>
+        </div>
+    </div>
+</div>
+
+<app-modal-log #modal1></app-modal-log>

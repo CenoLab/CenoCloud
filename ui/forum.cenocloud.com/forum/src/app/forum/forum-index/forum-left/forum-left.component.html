@@ -1,0 +1,87 @@
+<div class="forum-left">
+	<div class="row article_container bg-white" data-wow-delay="0.4s">
+		<div class="col-md-12 col-sm-12 col-xs-12 swiper-container" style="height: 25em;">
+			<a class="swiper-button-next swiper-button-white hidden-xs" href="#"></a>
+			<a class="swiper-button-prev swiper-button-white hidden-xs" href="#"></a>
+			<div class="swiper-wrapper">
+				<div class="swiper-slide" style="background: url(assets/img/banner1.jpg) center top/cover">
+					<div class="swiper-slider-text">这是一个厉害的社区,除了有一个水蛭</div>
+				</div>
+				<div class="swiper-slide" style="background: url(assets/img/banner2.jpg) center top/cover">
+					<div class="swiper-slider-text">这是一个厉害的社区,除了有一个水蛭</div>
+				</div>
+				<div class="swiper-slide" style="background: url(assets/img/banner3.jpg) center top/cover">
+					<div class="swiper-slider-text">这是一个厉害的社区,除了有一个水蛭</div>
+				</div>
+				<div class="swiper-slide" style="background: url(assets/img/banner4.jpg) center top/cover">
+					<div class="swiper-slider-text">这是一个厉害的社区,除了有一个水蛭</div>
+				</div>
+				<div class="swiper-slide" style="background: url(assets/img/banner5.jpg) center top/cover">
+					<div class="swiper-slider-text">这是一个厉害的社区,除了有一个水蛭</div>
+				</div>
+				<div class="swiper-slide" style="background: url(assets/img/banner6.jpg) center top/cover">
+					<div class="swiper-slider-text">这是一个厉害的社区,除了有一个水蛭</div>
+				</div>
+				<div class="swiper-slide" style="background: url(assets/img/banner7.jpg) center top/cover">
+					<div class="swiper-slider-text">这是一个厉害的社区,除了有一个水蛭</div>
+				</div>
+			</div>
+
+			<div class="swiper-pagination"></div>
+		</div>
+		<!-- <div class="col-md-6 col-sm-12 col-xs-12">
+			<h3> 编程语言系列直播：Python、C++、Java、JavaScript四大编程...</h3>
+			<p> 新年之后的社区第一趴系列直播——编程语言系列讲座中，我们邀请了行业资深专家和大家一起学习最流行的编程语言...</p>
+			<p> 鲲云物联网通用服务</p>
+			<p> 鲲云网联车整体解决方案 模组+云</p>
+			<p> [福利] 问卷调查拿模组</p>
+		</div> -->
+	</div>
+	<ul class="row index-left-ul">
+		<li class="col-md-2 col-sm-4 col-xs-3 forum_li forum_li_active" data-wow-delay="0.4s">
+			推荐阅读
+		</li>
+		<li class="col-md-2 col-sm-2 col-xs-2 forum_li" data-wow-delay="0.4s">
+			问答
+		</li>
+		<li class="col-md-2 col-sm-2 col-xs-2 forum_li" data-wow-delay="0.4s">
+			极客
+		</li>
+		<li class="col-md-2 col-sm-2 col-xs-2 forum_li" data-wow-delay="0.4s">
+			硬件
+		</li>
+		<li class="col-md-2 col-sm-2 col-xs-3 forum_li" data-wow-delay="0.4s">
+			更多
+		</li>
+	</ul>
+
+	<div [style.display]="load ? 'none' : 'block'" class="height-load">
+		<i class="fa fa-spinner  fa-4x fa-pulse"></i>
+	</div>
+
+	<div [style.display]="load ? 'block' : 'none'" *ngFor="let art of article" (click)="To_article(art.article.id)" class="row article_container bg-white index-left-content"
+	 data-wow-delay="0.4s">
+		<div class="content-title" [ngClass]="art.article.content==null?'col-sm-12 col-xs-12':'col-md-8 col-xs-8'">
+			<h3>{{art.article.title}}</h3>
+			<p class="hidden-xs" [innerHTML]="art.article.abstractContent">
+			</p>
+			<div class="row content-bottom">
+				<div class="col-md-3 col-sm-6 col-xs-6 hidden-xs">{{art.author.nickName}}</div>
+				<div class="col-md-3 col-sm-6 col-xs-6">234人浏览</div>
+				<div class="col-md-3 col-sm-6 col-xs-6 hidden-xs">
+					来自:<a target="_blank" [href]="art.article.fromWrl">{{art.article.fromWhere}}</a>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-6">{{art.article.modifyTime.split(" ")[0]}}</div>
+			</div>
+		</div>
+		<div *ngIf="art.article.content!=null"  class="col-md-4 col-sm-4 col-xs-4 article-img" >
+			<img width="100%" height="100%" [src]="art.article.content" />
+		</div>
+	</div>
+
+	<div class="row text-center load_comment" (click)="getforumindex()">
+		<i *ngIf="article_load==1" class="fa fa-angle-double-down"></i>
+		<i *ngIf="article_load==2" class="fa fa-spinner fa-spin"></i>
+		<p *ngIf="article_load==3" class="list-over">没有更多文章了</p>
+	</div>
+</div>

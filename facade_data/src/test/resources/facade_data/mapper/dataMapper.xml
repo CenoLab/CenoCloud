@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.iot.nero.facade_data.dao.DataDao">
+
+    <update id="createTable">
+        CREATE  TABLE if NOT EXISTS ${name} (
+          id int(64) PRIMARY KEY auto_increment,
+          a_id int(32) NOT NULL ,
+          m_from VARCHAR (64) NOT NULL ,
+          m_to VARCHAR (64) NOT NULL ,
+          m_qos VARCHAR (64) NOT NULL ,
+          m_message text NOT NULL ,
+          m_create_time DATETIME DEFAULT CURRENT_TIMESTAMP
+        )Engine=InnoDB;
+    </update>
+
+
+    <insert id="saveMessage">
+        insert into ${table}
+        (a_id,m_from,m_to,m_qos,m_message)
+        VALUES
+        (${aid},'${from}','${to}','${qos}','${message}');
+    </insert>
+
+    <select id="getMessageByPage" resultType="com.iot.nero.parent_data.entity.MQMessage">
+        select
+        id as Id,
+        a_id as  AId,
+        m_from as MFrom,
+        m_to as MTo,
+        m_qos as  MQos,
+        m_message as  MMessage,
+        m_create_time as MCreateTime
+        from ${table} where a_id  = ${aid} limit ${page},${num}
+    </select>
+
+
+    <select id="getSendMessageByPage" resultType="com.iot.nero.parent_data.entity.MQMessage">
+        select
+        id as Id,
+        a_id as  AId,
+        m_from as MFrom,
+        m_to as MTo,
+        m_qos as  MQos,
+        m_message as  MMessage,
+        m_create_time as MCreateTime
+        from ${table} where a_id  = ${aid} and m_from = '${clientId}' limit ${page},${num}
+    </select>
+
+    <select id="getReceivedMessageByPage" resultType="com.iot.nero.parent_data.entity.MQMessage">
+        select
+        id as Id,
+        a_id as  AId,
+        m_from as MFrom,
+        m_to as MTo,
+        m_qos as  MQos,
+        m_message as  MMessage,
+        m_create_time as MCreateTime
+        from ${table} where a_id  = ${aid} and m_to= '${clientId}' limit ${page},${num}
+    </select>
+
+
+    <select id="getSendMessageCount" resultType="Integer">
+        select
+        count(*)
+        from ${table} where a_id  = ${aid} and m_from= '${clientId}'
+    </select>
+
+    <select id="getAppSendMessageCount" resultType="Integer">
+        select
+        count(*)
+        from ${table} where a_id  = ${aid}
+    </select>
+
+    <select id="getAppSendMessageByTime" resultType="com.iot.nero.parent_data.entity.MQMessage">
+        SELECT
+        id as Id,
+        a_id as  AId,
+        m_from as MFrom,
+        m_to as MTo,
+        m_qos as  MQos,
+        m_message as  MMessage,
+        m_create_time as MCreateTime
+        from ${table}
+        where
+        <if test="from != null and  from != ''">
+            <![CDATA[ m_create_time >= #{from,jdbcType=TIMESTAMP}]]>
+        </if>
+        <if test="to != null and  to != ''">
+            <![CDATA[ and m_create_time <= #{to,jdbcType=TIMESTAMP}]]>
+        </if>
+    </select>
+
+    <select id="getAppClientSendMessageByTime" resultType="com.iot.nero.parent_data.entity.MQMessage">
+        SELECT
+        id as Id,
+        a_id as  AId,
+        m_from as MFrom,
+        m_to as MTo,
+        m_qos as  MQos,
+        m_message as  MMessage,
+        m_create_time as MCreateTime
+        from ${table}
+        where m_from = '${clientId}'
+        <if test="from != null and  from != ''">
+            <![CDATA[ and m_create_time >= #{from,jdbcType=TIMESTAMP}]]>
+        </if>
+        <if test="to != null and  to != ''">
+            <![CDATA[ and m_create_time <= #{to,jdbcType=TIMESTAMP}]]>
+        </if>
+    </select>
+    <!--MQMessage getAppClientSendMessageCurrent(@Param("table") String table,-->
+    <!--@Param("clientId") String clientId);-->
+    <select id="getAppClientSendMessageCurrent" resultType="com.iot.nero.parent_data.entity.MQMessage">
+        SELECT
+        id as Id,
+        a_id as  AId,
+        m_from as MFrom,
+        m_to as MTo,
+        m_qos as  MQos,
+        m_message as  MMessage,
+        m_create_time as MCreateTime
+        from ${table}
+        where m_from = '${clientId}'
+        order by m_create_time desc
+        limit 0,1;
+    </select>
+
+    <!--List<MQMessage> getAppClientSendMessageByTimePage(@Param("table") String table,-->
+    <!--@Param("clientId") String clientId,-->
+    <!--@Param("from") String from,-->
+    <!--@Param("to") String to,-->
+    <!--@Param("page") Integer page,-->
+    <!--@Param("num") Integer num);-->
+    <select id="getAppClientSendMessageByTimePage" resultType="com.iot.nero.parent_data.entity.MQMessage">
+        SELECT
+        id as Id,
+        a_id as  AId,
+        m_from as MFrom,
+        m_to as MTo,
+        m_qos as  MQos,
+        m_message as  MMessage,
+        m_create_time as MCreateTime
+        from ${table}
+        where m_from = '${clientId}'
+        <if test="from != null and  from != ''">
+            <![CDATA[ and m_create_time >= #{from,jdbcType=TIMESTAMP}]]>
+        </if>
+        <if test="to != null and  to != ''">
+            <![CDATA[ and m_create_time <= #{to,jdbcType=TIMESTAMP}]]>
+        </if>
+        ORDER by m_create_time desc
+        limit ${page},${num};
+    </select>
+</mapper>

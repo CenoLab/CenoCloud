@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+    
+    <head>
+        <title>
+        </title>
+        <meta name="google" value="notranslate" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <style type="text/css" media="screen">
+            html, body { height:100%; } body { margin:0; padding:0; overflow:auto;
+            text-align:center; background-color: #ffffff; } object:focus { outline:none;
+            } #flashContent { display:none; } #chat_show,{overflow:auto;margin:0 auto;margin-top:10px;font-size:
+            16px; color:#069; text-align:left;border-bottom:solid 1px #069;padding:10px;}
+            div{font-size: 14px; color:blue; text-align:left;} .first{ float:left;
+            width:500px; height: 600px; border:2px solid #686660; background-color:
+            #cccccc; } .cccc{ margin-top: 50px; margin-left: auto; margin-right: auto;
+            width: 600px; } li {list-style-type:none;}
+        </style>
+		<!--直接引入rop_client.js-->
+        <script type="text/javascript" src="http://cdn.aodianyun.com/dms/rop_client.js">
+        </script>
+        <script type="text/javascript">
+		//登陆成功
+            ROP.On("enter_suc",
+            function() {
+                ShowMsg("EnterSuc");
+            }) 
+			//重连中
+            ROP.On("reconnect",
+            function() {
+                ShowMsg("reconnect:");
+            }) 
+			//离线状态，之后会重连
+            ROP.On("offline",
+            function(err) {
+                ShowMsg("offline:" + err);
+            }) 
+			//登陆失败
+            ROP.On("enter_fail",
+            function(err) {
+                ShowMsg("EnterFail:" + err);
+            }) 
+			//收到消息
+            ROP.On("publish_data",
+            function(data, topic) {
+                ShowMsg("recv at " + topic + " -> " + data);
+            }) 
+			//彻底断线了
+            ROP.On("losed",
+            function() {
+                ShowMsg("Losed");
+            }) 
+            function ShowMsg(str) {
+                document.getElementById("chat_show").value = str + '\n' + document.getElementById("chat_show").value
+            }
+            function Publish() {
+                ROP.Publish(document.getElementById("idtext").value, document.getElementById("idscope").value);
+            }
+            function OnEnter() {
+                ROP.Enter(document.getElementById("id_pubkey").value, document.getElementById("id_subkey").value);
+            }
+            function OnJoin() {
+                ROP.Subscribe(document.getElementById("idgroup").value);
+            }
+            function OnUnJoin() {
+                ROP.UnSubscribe(document.getElementById("idgroup").value);
+            }
+            function Clear(){
+                document.getElementById("chat_show").value = ""
+            }
+        </script>
+    </head>
+    
+    <body>
+        <div class="cccc">
+            <div>
+                pubkey:
+                <input type="text" id="id_pubkey" value="demo" />
+                subkey:
+                <input type="text" id="id_subkey" value="demo" />
+                <button type="button" class="btn reg" onClick="OnEnter();">
+                    进入
+                </button>
+            </div>
+            <div>
+                topic:
+                <input type="text" id="idgroup" value="test" />
+                <button type="button" class="btn reg" onClick="OnJoin();">
+                    加入
+                </button>
+                <button type="button" class="btn reg" onClick="OnUnJoin();">
+                    退出
+                </button>
+            </div>
+            <div>
+                topic:
+                <input type="text" id="idscope" value="test" />
+                text:
+                <textarea  id="idtext" value="hi" ></textarea>
+                <button type="button" class="btn reg" onClick="Publish();">
+                    推送
+                </button>
+                <button type="button" class="btn reg" onClick="Clear();">
+                    清空
+                </button>
+            </div>
+            <textarea id="chat_show" class="first" readonly="readonly">
+            </textarea>
+        </div>
+        <div id="rop_context">
+        </div>
+    </body>
+
+</html>

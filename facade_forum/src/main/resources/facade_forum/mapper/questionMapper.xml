@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.iot.nero.facade_forum.dao.QuestionDao">
+    <insert id="addQuestion">
+      INSERT INTO question
+      (author_id,title,content,tags_id,type)
+      VALUES
+      ('${authorId}','${title}','${content}','${tagsId}',${type});
+    </insert>
+
+    <update id="updateQuestionById">
+      UPDATE
+      question
+      SET
+      title        = '${title}',
+      content      = '${content}',
+      tags_id      = '${tagsId}',
+      type         = ${type}
+      where id = ${id}
+      AND del =0;
+    </update>
+
+    <update id="acceptQuestionById">
+      UPDATE
+      question
+      set accept = 1
+      where id = ${id}
+      AND del= 0;
+    </update>
+
+    <select id="listQuestionByAuthorID" resultType="com.iot.nero.parent_facade.entity.Question">
+        SELECT
+        id           AS id,
+        author_id    AS authorId,
+        title        AS title,
+        content      AS content,
+        tags_id      AS tagsId,
+        type         AS type,
+        accept       AS accept,
+        answer_count AS answerCount,
+        star_count   AS starCount,
+        fav_count    AS favCount,
+        del          AS del,
+        modify_time  AS modifyTime,
+        create_time  AS createTime
+        FROM question
+        WHERE
+        author_id = ${aid}
+        AND del = 0
+        ORDER BY modify_time DESC
+        limit ${page},${num};
+    </select>
+    <select id="findQuestionByID" resultType="com.iot.nero.parent_facade.entity.Question">
+        SELECT
+        id           AS id,
+        author_id    AS authorId,
+        title        AS title,
+        content      AS content,
+        tags_id      AS tagsId,
+        type         AS type,
+        accept       AS accept,
+        answer_count AS answerCount,
+        star_count   AS starCount,
+        fav_count    AS favCount,
+        del          AS del,
+        modify_time  AS modifyTime,
+        create_time  AS createTime
+        FROM question
+        WHERE
+        id = ${id}
+        AND del = 0;
+    </select>
+    <select id="listQuestionByTime" resultType="com.iot.nero.parent_facade.entity.Question">
+        SELECT
+        id           AS id,
+        author_id    AS authorId,
+        title        AS title,
+        content      AS content,
+        tags_id      AS tagsId,
+        type         AS type,
+        accept       AS accept,
+        answer_count AS answerCount,
+        star_count   AS starCount,
+        fav_count    AS favCount,
+        del          AS del,
+        modify_time  AS modifyTime,
+        create_time  AS createTime
+        FROM question
+        WHERE del = 0
+        ORDER BY modify_time DESC
+        limit ${page},${num};
+    </select>
+
+    <select id="listQuestionByStarCount" resultType="com.iot.nero.parent_facade.entity.Question">
+         SELECT
+        id           AS id,
+        author_id    AS authorId,
+        title        AS title,
+        content      AS content,
+        tags_id      AS tagsId,
+        type         AS type,
+        accept       AS accept,
+        answer_count AS answerCount,
+        star_count   AS starCount,
+        fav_count    AS favCount,
+        del          AS del,
+        modify_time  AS modifyTime,
+        create_time  AS createTime
+        FROM question
+        WHERE del = 0
+        ORDER BY star_count DESC
+        limit ${page},${num};
+    </select>
+</mapper>

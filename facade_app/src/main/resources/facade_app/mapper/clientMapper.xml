@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.iot.nero.facade_app.dao.ClientDao">
+
+
+    <update id="createTable">
+        create table if not EXISTS ${table}(
+            id int(32) PRIMARY KEY NOT NULL AUTO_INCREMENT,
+            a_id int(32) NOT NULL,
+            client_id varchar(64) not null,
+            is_online tinyint default 0,
+            last_online datetime default CURRENT_TIMESTAMP,
+            last_offline datetime default CURRENT_TIMESTAMP,
+            create_time datetime default CURRENT_TIMESTAMP,
+            conn_count int(32) NOT NULL default 0
+        )Engine= InnoDB;
+    </update>
+
+    <select id="findClientById" resultType="com.iot.nero.parent_app.entity.ClientConn">
+        SELECT
+          id as Id,
+          a_id as AId,
+          client_id as ClientId,
+          is_online as IsOnline,
+          last_online as LastOnlineTime,
+          last_offline as LastOfflineTime,
+          create_time as CreateTime,
+          conn_count as ConnCount
+        from ${table} where client_id = '${clientId}';
+    </select>
+
+    <update id="onLine">
+        update ${table} set is_online = 1,conn_count = conn_count+1,
+        last_online = CURRENT_TIMESTAMP where client_id = '${clientId}';
+    </update>
+
+    <update id="offLine">
+        update ${table} set is_online = 0,
+        last_offline = CURRENT_TIMESTAMP where client_id = '${clientId}';
+    </update>
+
+
+    <insert id="checkIn">
+        insert into developer_${did}_client
+        (a_id,client_id)
+        VALUES
+        (${aid},'${clientId}');
+    </insert>
+
+    <select id="getCurrentConnCount" resultType="java.lang.Integer">
+        SELECT count(*) from ${table} where a_id = ${aid}
+    </select>
+
+    <select id="getCurrentOnlineCount" resultType="java.lang.Integer">
+        SELECT count(*) from ${table} where a_id = ${aid} and is_online = 1;
+    </select>
+
+
+    <select id="getConns" resultType="com.iot.nero.parent_app.entity.ClientConn">
+        SELECT
+        id as Id,
+        a_id as AId,
+        client_id as ClientId,
+        is_online as IsOnline,
+        last_online as LastOnlineTime,
+        last_offline as LastOfflineTime,
+        create_time as CreateTime,
+        conn_count as ConnCount
+        from  developer_${did}_client
+        where a_id = ${aid} limit ${page},${num};
+    </select>
+
+
+</mapper>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.iot.nero.facade_forum.dao.FollowDao">
+    <insert id="addFollow">
+        insert into follow
+        (author_id,follow_id)
+        values
+        (${authorId},${targetAuthorId});
+    </insert>
+    <update id="delFollow">
+        UPDATE follow
+        set del = 1
+        WHERE author_id = ${authorId}
+        and follow_id = ${targetAuthorId}
+        AND del = 0
+    </update>
+    <update id="updateFollow">
+         UPDATE follow
+        set del = 0
+        WHERE author_id = ${authorId}
+        and follow_id = ${targetAuthorId}
+        AND del = 1
+    </update>
+
+
+    <select id="listFollowByAuthor" resultType="com.iot.nero.parent_facade.entity.Author">
+      SELECT
+        A.id             AS authorId,
+        A.sid            AS ssoId,
+        A.nickname       AS nickName,
+        A.article_count  AS articleCount,
+        A.question_count AS questionCount,
+        A.answer_count   AS answerCount,
+        A.follow_count   AS followCount,
+        A.start_count    AS starCount,
+        A.experience     AS experience,
+        A.score          AS score,
+        A.del            AS del,
+        A.modify_time    AS modifyTime
+        FROM author A
+        WHERE A.id in (
+          SELECT F.follow_id
+          FROM follow F
+          WHERE F.author_id = ${aid}
+          AND F.del =0
+        )
+        AND A.del = 0
+        LIMIT ${page},${num}
+    </select>
+
+    <select id="getFollowPairByAuthorId" resultType="com.iot.nero.parent_facade.entity.FollowPair">
+        SELECT
+          id          AS  id,
+          author_id   AS authorId,
+          follow_id   AS followId,
+          del         AS del,
+          modify_time AS modifyTime,
+          create_time AS createTime
+
+          FROM follow
+          WHERE author_id = ${authorId}
+          AND follow_id = ${target}
+          AND del = 0
+    </select>
+
+    <select id="listFansByAuthor" resultType="com.iot.nero.parent_facade.entity.Author">
+        SELECT
+        A.id             AS authorId,
+        A.sid            AS ssoId,
+        A.nickname       AS nickName,
+        A.article_count  AS articleCount,
+        A.question_count AS questionCount,
+        A.answer_count   AS answerCount,
+        A.follow_count   AS followCount,
+        A.start_count    AS starCount,
+        A.experience     AS experience,
+        A.score          AS score,
+        A.del            AS del,
+        A.modify_time    AS modifyTime
+        FROM author A
+        WHERE A.id in (
+          SELECT F.author_id
+          FROM follow F
+          WHERE F.follow_id = ${authorId}
+          AND F.del =0
+        )
+        AND A.del = 0
+        LIMIT ${page},${num}
+    </select>
+</mapper>

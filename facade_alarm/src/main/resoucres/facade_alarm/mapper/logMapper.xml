@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.iot.nero.facade_alarm.dao.AlarmLogDao">
+
+    <insert id="insertAlarmLog">
+        insert INTO
+        alarm_log_${aid}
+        (d_id,m_id,c_id)
+        VALUES
+        (${did},${mid},${cid});
+    </insert>
+
+    <update id="createAlarmLogTable">
+        CREATE  TABLE  if NOT EXISTS alarm_log_${aid}(
+            id int(32) NOT NULL  PRIMARY KEY AUTO_INCREMENT,
+          d_id int(32) not null,
+          m_id int(32) NOT NULL,
+          c_id int(32) NOT NULL,
+          create_time DATETIME DEFAULT current_timestamp
+            )Engine = InnoDB;
+    </update>
+
+
+    <select id="getAlarmLogByDataPointId" resultType="com.iot.nero.parent_alarm.entity.Log">
+      SELECT
+      id as Id,
+      d_id as Did,
+      m_id as MId,
+      c_id as CId,
+      create_time as CreateTime
+      from alarm_log_${aid}
+      where
+      d_id = ${did}
+      limit ${from},${num};
+    </select>
+
+    <select id="getAlarmLogByDataPointIdAndTimeStamp" resultType="com.iot.nero.parent_alarm.entity.Log">
+        id as Id,
+        d_id as DId,
+        m_id as MId,
+        c_id as CId,
+        create_time as CreateTime
+        from alarm_log_${aid}
+        where
+        d_id = ${did} and
+        <if test="from != null and  from != ''">
+            <![CDATA[ and  create_time>= to_date(#{from,jdbcType=DATE},'yyyy-MM-dd hh24:mi:ss')]]>
+        </if>
+        <if test="to != null and  to != ''">
+            <![CDATA[ and create_time <= to_date(#{to,jdbcType=DATE},'yyyy-MM-dd hh24:mi:ss')]]>
+        </if>
+        limit ${page},${num};
+    </select>
+</mapper>

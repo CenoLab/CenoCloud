@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.iot.nero.facade_forum.dao.AttentionDao">
+
+    <select id="listAttentions" resultType="com.iot.nero.parent_facade.entity.Attention">
+        SELECT
+          id as id,
+          title as title,
+          content as content,
+          del as del,
+          modify_time as modifyTime,
+          create_time as createTime
+
+           from attention
+           where del = 0
+           ORDER BY create_time DESC
+           limit ${page},${num}
+    </select>
+</mapper>

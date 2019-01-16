@@ -1,0 +1,26 @@
+.right_item{
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.right_item+.right_item{
+    border-left: solid 1px #f8f8f8;
+}
+
+.right_item:hover p{
+    color:#2E60FF;
+}
+
+.right_item img{
+    filter: grayscale(100%);
+    padding: 30% 30% 10% 30%;
+    color: #000;
+}
+
+.right_item:hover img{
+    filter: grayscale(0);
+}
+
+.right_item p{
+    text-align: center;
+}

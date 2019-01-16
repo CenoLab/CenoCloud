@@ -1,0 +1,29 @@
+.new-title{
+    line-height: 60px;
+    background-color: #fff;
+    padding: 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+.new-title .active{
+    color: #36f;
+    border-bottom: 1px solid #36f;
+}
+
+.article_container{
+    background-color: #fff;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.question>div{
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.form_group{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

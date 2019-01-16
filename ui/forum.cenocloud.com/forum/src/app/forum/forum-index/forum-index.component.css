@@ -1,0 +1,89 @@
+.mymodal{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 999;
+}
+
+.mymodal-content{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 500px;
+    height: 250px;
+    background-color:#fff;
+    border-radius: 3px;
+}
+
+.modal-body{
+    padding: 30px 10%;
+}
+
+.modal-body label{
+    font-size: 14px;
+    line-height: 38px;
+    text-align: right;
+    width: 50px;
+    float: left;
+}
+
+.modal-body .input_div{
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
+.modal-body input{
+    height: 38px;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.modal-footer{
+    border-top: none;
+    text-align: left;
+}
+
+.modal-footer a{
+    margin-left: 50px;
+    line-height: 40px;
+}
+
+
+.modal-footer button{
+    margin-right: 40px;
+    padding: 10px 15px;
+    float: right;
+}
+
+@media screen and (max-width:768px){
+    .mymodal-content{
+        width: 90%;
+        height: 300px;
+    }
+    
+    .modal-body{
+        padding: 30px 0%;
+    }
+
+    .modal-footer {
+        text-align: center;
+    }
+
+    .modal-footer button{
+        float: none;
+        margin-right: 0px;
+    }
+
+    .modal-footer a{
+        margin-left: 0px;
+        display: inline-block;
+    }
+    
+}

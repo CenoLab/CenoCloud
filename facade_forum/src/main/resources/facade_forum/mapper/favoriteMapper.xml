@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.iot.nero.facade_forum.dao.FavoriteDao">
+    <insert id="addFavoriteArticle">
+        insert into favorite (
+          author_id,
+          favorite_for,
+          for_id
+        ) values (
+          ${authorId},
+          1,
+          ${favId}
+        );
+    </insert>
+    <insert id="addFavoriteQuestion">
+        insert into favorite (
+          author_id,
+          favorite_for,
+          for_id
+        ) values (
+          ${authorId},
+          2,
+          ${favId}
+        );
+    </insert>
+    <update id="delFavoriteArticle">
+      UPDATE favorite
+      SET del = 1
+      WHERE author_id = ${authorId}
+      AND for_id = ${favId}
+      AND  favorite_for = 1
+      AND del = 0
+    </update>
+    <update id="delFavoriteQuestion">
+      UPDATE favorite
+      SET del = 1
+      WHERE author_id = ${authorId}
+      AND for_id = ${favId}
+      AND  favorite_for = 2
+      AND del = 0
+    </update>
+    <update id="updateFavoriteArticle">
+        UPDATE favorite
+      SET del = 0
+      WHERE author_id = ${authorId}
+      AND for_id = ${articleId}
+      AND  favorite_for = 1
+      AND del = 1
+    </update>
+    <update id="updateFavoriteQuestion">
+         UPDATE favorite
+      SET del = 0
+      WHERE author_id = ${authorId}
+      AND for_id = ${questionId}
+      AND  favorite_for = 2
+      AND del = 1
+    </update>
+
+
+    <select id="listFavoriteArticle" resultType="com.iot.nero.parent_facade.entity.Article">
+        SELECT
+          A.id            AS id,
+          A.author_id     AS authorId,
+          A.title         AS title,
+          A.content       AS content,
+          A.read_count    AS readCount,
+          A.tags_id       AS tagsId,
+          A.can_comment   AS canComment,
+          A.abstract      AS abstractContent,
+          A.type          AS type,
+          A.start_count   AS startCount,
+          A.from_where    AS fromWhere,
+          A.from_url      AS fromWrl,
+          A.star_count    AS starCount,
+          A.fav_count     AS favCount,
+          A.del           AS del,
+          A.modify_time   AS modifyTime,
+          A.create_time   AS createTime
+          FROM article A
+          WHERE A.id in (
+            SELECT F.for_id
+            FROM favorite F
+            WHERE F.author_id = ${authorId}
+            AND F.favorite_for = 1
+            AND F.del = 0
+          )
+          AND A.del = 0
+          LIMIT ${page},${num};
+    </select>
+    <select id="listFavoriteQuestion" resultType="com.iot.nero.parent_facade.entity.Question">
+        SELECT
+          Q.id           AS id,
+          Q.author_id    AS authorId,
+          Q.title        AS title,
+          Q.content      AS content,
+          Q.tags_id      AS tagsId,
+          Q.type         AS type,
+          Q.accept       AS accept,
+          Q.answer_count AS answerCount,
+          Q.star_count   AS starCount,
+          Q.fav_count    AS favCount,
+          Q.del          AS del,
+          Q.modify_time  AS modifyTime,
+          Q.create_time  AS createTime
+        FROM question Q
+          WHERE Q.id in (
+            SELECT F.for_id
+            FROM favorite F
+            WHERE F.author_id = ${authorId}
+            AND F.favorite_for = 2
+            AND F.del = 0
+          )
+        AND Q.del = 0
+        LIMIT ${page},${num};
+    </select>
+    <select id="findFavoriteByTypeAndId" resultType="com.iot.nero.parent_facade.entity.Favorite">
+      SELECT
+      id            AS id,
+      author_id     AS authorId,
+      favorite_for  AS favoriteFor,
+      for_id        AS forId,
+      del           AS del,
+      modify_time   AS modifyTime,
+      create_time   AS createTime
+      FROM favorite
+      WHERE
+       favorite_for =  ${forType}
+       AND author_id = ${authorId}
+       AND for_id = ${forId}
+      AND del = 0;
+    </select>
+</mapper>

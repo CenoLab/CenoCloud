@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.iot.nero.facade_forum.dao.EntryDao">
+
+    <select id="listEntries" resultType="com.iot.nero.parent_facade.entity.Entry">
+        SELECT
+          id as id,
+          name as name,
+          name_url as nameUrl,
+          del as del,
+          modify_time as modifyTime,
+          create_time as createTime
+
+           from entry
+           where del = 0
+           ORDER BY create_time DESC
+    </select>
+</mapper>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.iot.nero.facade_balance.dao.BalanceDao">
+    <select id="findByDid" resultType="com.iot.nero.parent_balance.entity.Balance">
+        SELECT
+            id as Id,
+            d_id as DId,
+            total_conn_count as TotalConnCount,
+            rest_conn_count as RestConnCount,
+            total_money as TotalMoney,
+            rest_money as RestMoney,
+            create_time as CreateTime
+        from balance where d_id = ${did};
+    </select>
+
+    <update id="consumeById">
+        update balance set
+        rest_conn_count=${restC},
+        rest_money=${restM},
+        total_conn_count=${restT},
+        create_time=CURRENT_TIMESTAMP
+        where id = ${id}
+    </update>
+
+    <update id="rechargeById">
+        update balance set
+        total_money = ${totalM},
+        rest_money = ${restM},
+        create_time = CURRENT_TIMESTAMP
+        where id =${id}
+    </update>
+
+    <update id="updateConn">
+        update balance set
+        rest_conn_count = ${connNum}
+        where d_id =${did}
+    </update>
+
+    <!--Integer insertConn(@Param("did") Integer did, @Param("conn") int i);-->
+    <insert id="insertConn">
+        insert into balance
+        (d_id,total_conn_count,rest_conn_count,total_money,rest_money)
+        VALUES
+        (${did},${conn},${conn},0,0);
+    </insert>
+</mapper>

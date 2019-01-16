@@ -1,0 +1,114 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <title></title>
+<style id="system" type="text/css">h1,h2,h3,h4,h5,h6,p,blockquote {    margin: 0;    padding: 0;}body {    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;    font-size: 13px;    line-height: 18px;    color: #737373;    margin: 10px 13px 10px 13px;}a {    color: #0069d6;}a:hover {    color: #0050a3;    text-decoration: none;}a img {    border: none;}p {    margin-bottom: 9px;}h1,h2,h3,h4,h5,h6 {    color: #404040;    line-height: 36px;}h1 {    margin-bottom: 18px;    font-size: 30px;}h2 {    font-size: 24px;}h3 {    font-size: 18px;}h4 {    font-size: 16px;}h5 {    font-size: 14px;}h6 {    font-size: 13px;}hr {    margin: 0 0 19px;    border: 0;    border-bottom: 1px solid #ccc;}blockquote {    padding: 13px 13px 21px 15px;    margin-bottom: 18px;    font-family:georgia,serif;    font-style: italic;}blockquote:before {    content:"C";    font-size:40px;    margin-left:-10px;    font-family:georgia,serif;    color:#eee;}blockquote p {    font-size: 14px;    font-weight: 300;    line-height: 18px;    margin-bottom: 0;    font-style: italic;}code, pre {    font-family: Monaco, Andale Mono, Courier New, monospace;}code {    background-color: #fee9cc;    color: rgba(0, 0, 0, 0.75);    padding: 1px 3px;    font-size: 12px;    -webkit-border-radius: 3px;    -moz-border-radius: 3px;    border-radius: 3px;}pre {    display: block;    padding: 14px;    margin: 0 0 18px;    line-height: 16px;    font-size: 11px;    border: 1px solid #d9d9d9;    white-space: pre-wrap;    word-wrap: break-word;}pre code {    background-color: #fff;    color:#737373;    font-size: 11px;    padding: 0;}@media screen and (min-width: 768px) {    body {        width: 748px;        margin:10px auto;    }}</style><style id="custom" type="text/css"></style></head>
+<body marginheight="0"><h1>DMS C Asynchronous API</h1>
+<h1>头文件</h1>
+<pre><code>#include "DMSAsyncApi.h"</code></pre>
+<h1>创建客户端对象</h1>
+<pre><code>#define ADDRESS     "tcp://mqtt.dms.aodianyun.com:1883"
+#define CLIENTID    "Publisher0"
+DMSAsync client;
+//创建客户端对象,失败返回 NULL
+client = DMSAsync_create(ADDRESS, CLIENTID);</code></pre>
+<h1>设置回调函数</h1>
+<pre><code>//成功返回 DMSASYNC_SUCCESS，失败返回 DMSASYNC_FAILURE
+//第二个参数为传递给回调函数的context
+DMSAsync_setCallbacks(client, client, connectionLost, messageArrived, deliveryComplete);</code></pre>
+<h1>回调函数定义</h1>
+<pre><code>int messageArrived(void *context, char *topicName, int topicLen, DMSAsync_message *message)
+{
+    printf("messageArrived--&gt;%s:%.*s\n", topicName, message-&gt;payloadlen, (char*)message-&gt;payload);
+    fflush(stdout);
+    DMSAsync_freeMessage(&amp;message);
+    DMSAsync_free(topicName);
+    return 1;
+}
+void connectionLost(void *context, char *cause)
+{
+    printf("connectionlost\n");
+}
+void deliveryComplete(void* context, DMSAsync_token token)
+{
+    printf("deliveryComplete\n");
+}</code></pre>
+<h1>连接服务器</h1>
+<pre><code>#define PUB_KEY     "demo"
+#define SUB_KEY     "demo"
+int result;
+//成功返回 DMSASYNC_SUCCESS，否则onFailure回调函数中返回错误代码
+if ((result = DMSAsync_connect(client, PUB_KEY, SUB_KEY, onConnect, onConnectFailure, client)) != DMSASYNC_SUCCESS)
+{
+    printf("Failed to connect, return code %d\n", result);
+    exit(-1);
+}
+...
+void onConnect(void* context, DMSAsync_successData* response)
+{
+    printf("onConnect\n");
+}
+void onConnectFailure(void* context, DMSAsync_failureData* response)
+{
+    printf("onConnectFailure\n");
+}</code></pre>
+<h1>关注话题</h1>
+<pre><code>#define TOPIC       "test"
+DMSAsync_responseOptions subRespOpts = RespOptsInit(onSubscribe, onSubscribeFailure, client);
+//成功返回 DMSASYNC_SUCCESS，否则返回错误代码
+DMSAsync_subscribe(client, TOPIC, &amp;subRespOpts);
+//等待关注成功
+DMSAsync_waitForCompletion(client,subRespOpts.token,10000);
+...
+void onSubscribe(void* context, DMSAsync_successData* response)
+{
+    printf("onSubscribe\n");
+}
+void onSubscribeFailure(void* context, DMSAsync_failureData* response)
+{
+    printf("onSubscribeFailure\n");
+}</code></pre>
+<h1>推送消息</h1>
+<pre><code>#define TOPIC       "test"
+#define PAYLOAD     "Hello World!C"
+DMSAsync_responseOptions sendOpts = RespOptsInit(onSend, NULL, client);
+//成功返回 DMSASYNC_SUCCESS，否则返回错误代码
+DMSAsync_send(client, TOPIC, strlen(PAYLOAD), PAYLOAD, &amp;sendOpts);
+DMSAsync_waitForCompletion(client, sendOpts.token, 10000);
+...
+void onSend(void* context, DMSAsync_successData* response)
+{
+    printf("onSend--&gt;Message with token value %d delivery confirmed\n", response-&gt;token);
+}</code></pre>
+<h1>取消关注</h1>
+<pre><code>#define TOPIC       "test"
+DMSAsync_responseOptions unsubRespOpts = RespOptsInit(onUnsubscribe, onUnsubscribeFailure, client);
+//成功返回 DMSASYNC_SUCCESS，否则返回错误代码
+DMSAsync_unsubscribe(client, TOPIC, &amp;unsubRespOpts);
+//等待取消关注成功
+DMSAsync_waitForCompletion(client, unsubRespOpts.token, 10000);
+...
+void onUnsubscribe(void* context, DMSAsync_successData* response)
+{
+    printf("onUnsubscribe\n");
+}
+void onUnsubscribeFailure(void* context, DMSAsync_failureData* response)
+{
+    printf("onUnSubscribeFailure\n");
+}</code></pre>
+<h1>断开连接</h1>
+<pre><code>static int isDisconnected = 0;
+DMSAsync_disconnectOptions discOpts = DisconOptsInit(onDisconnect, NULL, client);
+//成功返回 DMSASYNC_SUCCESS，否则返回错误代码
+DMSAsync_disconnect(client, &amp;discOpts);
+//等待断开成功...
+while (isDisconnected==0) Sleep(100);
+...
+void onDisconnect(void* context, DMSAsync_successData* response)
+{
+    printf("onDisconnect\n");
+    isDisconnected = 1;
+}</code></pre>
+<h1>释放对象</h1>
+<pre><code>DMSAsync_destroy(&amp;client);</code></pre>
+<p>Edit By <a href="http://mahua.jser.me">MaHua</a></p>
+</body></html>

@@ -1,0 +1,124 @@
+.article-title{
+    line-height: 60px;
+    background-color: #fff;
+    padding: 0;
+}
+
+.article-title .active{
+    text-align: center;
+    color: #36f;
+    border-bottom: 1px solid #36f;
+}
+
+.article_container{
+    background-color: #fff;
+    margin-top: 5px;
+}
+
+.article-summary{
+    padding: 1em auto;
+    margin-top: 10px;
+}
+
+.article-summary p{
+    background: #f5f5f5;
+    padding:1em;
+    font-size: 0.9em;
+}
+
+.article-content p{
+    padding:1em;
+}
+
+.article-report{
+    margin: 10px auto;
+}
+
+.article-report>div{
+    padding: 0.5em;
+    background: #f8f8f8;
+    border: solid 1px #ede4e4;
+}
+
+.article-report>div>div{
+    background: #fff;
+    border: solid 1px #ede4e4;
+    padding: 0.5em;
+}
+
+.other-article li+li{
+    margin-top: 0.5em;
+}
+
+.article-author{
+    line-height: 50px;
+}
+
+.article-summary,.article-author,.article-content,.article-report{
+    margin:10px 0;
+}
+
+.form_group{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.comment{
+    border-bottom: 1px solid #F0F0F0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.comment img{
+    border-radius: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 60px;
+    float: left;
+}
+
+.comment .comment-content{
+    margin-left: 80px;
+    margin-top: 8px;
+    line-height: 170%;
+    word-wrap: break-word;
+}
+
+.comment .comment-content i{
+    white-space: nowrap;
+}
+
+.comment .comment-content .comment-nickname{
+    color:#2E6BB0;
+    padding-right: 6px;
+    font-style: normal;
+}
+
+.comment .comment-content .comment-time{
+    color: #999999;
+    cursor: pointer;
+}
+
+.comment .comment-content .comment-time:hover i{
+    color: #36f;
+}
+
+.comment .comment-content .comment-time i{
+    margin-left: 30px;
+    margin-top: 3px;
+    padding-right: 3px;
+}
+
+.comment .comment-content .comment-time i::before{
+    padding-right: 5px;
+}
+
+@media screen and (max-width:768px){
+    .comment img{
+        margin-left: 0px;
+    }
+
+    .comment .comment-content{
+        margin-left: 70px;
+    }
+}

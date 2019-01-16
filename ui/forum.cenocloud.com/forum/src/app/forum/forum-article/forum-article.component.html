@@ -1,0 +1,149 @@
+<div>
+	<div [style.display]="load ? 'none' : 'block'" class="col-sm-8 col-xs-12 height-load">
+		<i class="fa fa-spinner  fa-4x fa-pulse"></i>
+	</div>
+	<div [style.display]="load ? 'block' : 'none'" class="col-sm-8 col-xs-12" *ngFor="let art of article">
+		<div class="row  article-title">
+			<div class="col-sm-3 active">文章</div>
+		</div>
+		<div class="row p1 wow article_container" data-wow-delay="0.4s">
+			<h1 class="col-sm-12 col-xs-12 text-center">{{art.article.title}}</h1>
+			<div class="col-sm-12 col-xs-12 article-author">
+				<div class="col-sm-3 col-xs-6 text-center">
+					{{art.author.nickName}}
+				</div>
+				<div class="col-sm-3 col-xs-6 text-center">
+					收藏{{art.article.favCount}}
+				</div>
+				<div class="col-sm-3 col-xs-6 text-center">
+					{{art.article.modifyTime.split(" ")[0]}}
+				</div>
+				<div class="col-sm-3 col-xs-6 text-center">
+					点赞数{{art.article.starCount}}
+				</div>
+			</div>
+			<div class="col-md-12 col-xs-12 article-summary">
+				<p>摘要： {{art.article.abstractContent}}</p>
+			</div>
+			<div class="col-md-12 col-xs-12 article-content" [innerHTML]="art.article.content">
+			</div>
+			<div class="col-md-12 col-xs-12 article-report">
+				<div>
+					<div>
+						如果您发现本社区中有涉嫌抄袭的内容，欢迎发送邮件至：forum@support.cenocloud.com 进行举报，并提供相关证据，一经查实，本社区将立刻删除涉嫌侵权内容。
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row article_container other-article" data-wow-delay="0.4s">
+			<div class="col-sm-12">
+				<p style="border-bottom: solid 1px #f8f8f8;padding: 0.5em 0;">相关文章</p>
+			</div>
+			<!-- <div class="col-sm-6 col-xs-12">
+				<ul>
+					<li>共生GBA全球区块链技术应用大会圆满落幕</li>
+					<li>共生GBA全球区块链技术应用大会圆满落幕</li>
+					<li>共生GBA全球区块链技术应用大会圆满落幕</li>
+					<li>共生GBA全球区块链技术应用大会圆满落幕</li>
+					<li>共生GBA全球区块链技术应用大会圆满落幕</li>
+				</ul>
+			</div>
+			<div class="col-sm-6 col-xs-12">
+				<ul>
+					<li>共生GBA全球区块链技术应用大会圆满落幕</li>
+					<li>共生GBA全球区块链技术应用大会圆满落幕</li>
+					<li>共生GBA全球区块链技术应用大会圆满落幕</li>
+					<li>共生GBA全球区块链技术应用大会圆满落幕</li>
+				</ul>
+			</div> -->
+		</div>
+
+		<div class="row article_container" data-wow-delay="0.4s">
+			<div class="col-sm-12 col-xs-12 form_group">
+				<div class="editor">
+					<div class="editor-container">
+						<textarea name="comment" rows="4" class="form-control js-mention js-auto-expand editor-content" id="comment" placeholder="写下你的评论…"
+						 required=""></textarea>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-xs-12 form_group">
+				<input type="text" placeholder="输入验证码内容" />
+				<img style="height:38px;" src="https://api.sso.cenocloud.com/login/nasde/create" />
+			</div>
+			<div class="col-sm-3 col-xs-6 form_group">
+				<button (click)="addComment()" type="submit" class="comment_button" style="width:100%;background: #36f;color:#fff;font-weight: bold;height: 3em;line-height: 3em;border:none;">评论</button>
+			</div>
+		</div>
+
+
+		<div class="row article_container" data-wow-delay="0.4s">
+			<p style="border-bottom: solid 1px #f8f8f8;padding: 0.5em;">网友评论</p>
+			<div class="col-sm-12 col-xs-12" *ngFor="let comment of comments">
+				<div class="comment">
+					<img src="assets/img/logo.png">
+					<div class="comment-content">
+						<p>
+							<i class="comment-nickname">{{comment.author.nickName}}</i>:&nbsp;{{comment.comment.content}}
+						</p>
+						<p class="comment-time">
+							{{comment.comment.modifyTime.substring(0,19)}}
+							<i class="fa fa-thumbs-o-up" (click)="Star(comment.comment.id)">{{comment.comment.starCount}}</i>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-xs-12 text-center load_comment" (click)="getComment()">
+				<i *ngIf="load_com==1"  class="fa fa-angle-double-down"></i>
+				<i *ngIf="load_com==2" class="fa fa-spinner fa-spin"></i>
+				<p *ngIf="load_com==3" class="list-over">没有更多评论了</p>
+			</div>
+		
+		</div>	
+	</div>
+	<div class="col-sm-4 hidden-xs">
+		<div style="margin-left: 10px;">
+			<app-forum-right-function></app-forum-right-function>
+			<div class="row" style="margin-top:1em;" *ngFor="let art of article">
+				<div class="col-md-12" style="background: #fff;padding-bottom: 1em;">
+					<h3 class="col-md-12" style="font-size:1em;border-bottom: solid 1px #f8f8f8;font-weight: lighter;padding-bottom:0.5em;font-size: 1.3em;">达人介绍</h3>
+					<div class="col-md-5">
+						<img class="col-md-12" src="assets/img/logo.png" />
+					</div>
+					<div class="col-md-7">
+						<p>{{art.author.nickName}}</p>
+						<p>文章 {{art.author.articleCount}}篇 | 关注 {{art.author.followCount}}</p>
+						<button class="comment_button" style="width:6em;background: #fff;color:#36f;font-weight: bold;height: 2.5em;line-height: 2.5em;border:solid 1px #36f;">关注</button>
+					</div>
+				</div>
+			</div>
+			<div class="row" style="margin-top:1em;">
+				<div class="col-md-12" style="background: #fff;padding-bottom: 1em;">
+					<h3 class="col-md-12" style="font-size:1em;border-bottom: solid 1px #f8f8f8;font-weight: lighter;padding-bottom:0.5em;font-size: 1.3em;">博主其他文章</h3>
+					<ul style="padding: 0;margin:0;padding-left: 1em;">
+						<li style="padding: 0;margin: 0;margin-top:1em;">
+							· 量子隐形传输
+						</li>
+						<li style="padding: 0;margin: 0;margin-top:1em;">
+
+							· 量子计算：第四次工业革命的引擎
+						</li>
+						<li style="padding: 0;margin: 0;margin-top:1em;">
+							· AI和量子计算的“联姻”开启新世界
+
+						</li>
+						<li style="padding: 0;margin: 0;margin-top:1em;">
+							· 量子计算又迈出了一大步
+						</li>
+					</ul>
+					<p style="padding: 0;margin: 0;margin-top:1em;text-align:right;">
+						<a>更多</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<app-modal-log #modal></app-modal-log>
+</div>
